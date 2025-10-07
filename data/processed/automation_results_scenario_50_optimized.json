@@ -1,0 +1,2002 @@
+[
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R38",
+      "pick_up": 0.10103,
+      "Ishc": 1.14,
+      "TDS": 0.38959,
+      "Time_out": 1.0982969341865572,
+      "line": "L1-2"
+    },
+    "backup_relay": {
+      "relay": "R39",
+      "line": "L2-3",
+      "pick_up": 0.32108,
+      "Ishc": 0.68,
+      "TDS": 0.2276,
+      "Time_out": 2.107235148968349
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R38",
+      "pick_up": 0.10103,
+      "Ishc": 1.14,
+      "TDS": 0.38959,
+      "Time_out": 1.0982969341865572,
+      "line": "L1-2"
+    },
+    "backup_relay": {
+      "relay": "R55",
+      "line": "L2-19",
+      "pick_up": 0.22682,
+      "Ishc": 0.46,
+      "TDS": 0.29176,
+      "Time_out": 2.868052893584135
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R10",
+      "pick_up": 0.37949,
+      "Ishc": 1.02,
+      "TDS": 0.55269,
+      "Time_out": 3.87436925782481,
+      "line": "L10-11"
+    },
+    "backup_relay": {
+      "relay": "R9",
+      "line": "L9-10",
+      "pick_up": 0.58739,
+      "Ishc": 1.02,
+      "TDS": 0.74018,
+      "Time_out": 9.336852876214902
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R47",
+      "pick_up": 0.11104,
+      "Ishc": 0.4,
+      "TDS": 0.39325,
+      "Time_out": 2.12053464625393,
+      "line": "L10-11"
+    },
+    "backup_relay": {
+      "relay": "R48",
+      "line": "L11-12",
+      "pick_up": 0.17688,
+      "Ishc": 0.4,
+      "TDS": 0.28049,
+      "Time_out": 2.3866039304438704
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R11",
+      "pick_up": 0.29091,
+      "Ishc": 0.96,
+      "TDS": 0.6129,
+      "Time_out": 3.550726564813901,
+      "line": "L11-12"
+    },
+    "backup_relay": {
+      "relay": "R10",
+      "line": "L10-11",
+      "pick_up": 0.37949,
+      "Ishc": 0.96,
+      "TDS": 0.55269,
+      "Time_out": 4.129957406503696
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R48",
+      "pick_up": 0.17688,
+      "Ishc": 0.49,
+      "TDS": 0.28049,
+      "Time_out": 1.907377880656761,
+      "line": "L11-12"
+    },
+    "backup_relay": {
+      "relay": "R49",
+      "line": "L12-13",
+      "pick_up": 0.06188,
+      "Ishc": 0.28,
+      "TDS": 0.49194,
+      "Time_out": 2.246869520243186
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R48",
+      "pick_up": 0.17688,
+      "Ishc": 0.49,
+      "TDS": 0.28049,
+      "Time_out": 1.907377880656761,
+      "line": "L11-12"
+    },
+    "backup_relay": {
+      "relay": "R72",
+      "line": "L12-22",
+      "pick_up": 0.08536,
+      "Ishc": 0.21,
+      "TDS": 0.53101,
+      "Time_out": 4.091963772953121
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R12",
+      "pick_up": 0.21609,
+      "Ishc": 1.02,
+      "TDS": 0.54573,
+      "Time_out": 2.4236250136213475,
+      "line": "L12-13"
+    },
+    "backup_relay": {
+      "relay": "R11",
+      "line": "L11-12",
+      "pick_up": 0.29091,
+      "Ishc": 0.82,
+      "TDS": 0.6129,
+      "Time_out": 4.097300923562902
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R12",
+      "pick_up": 0.21609,
+      "Ishc": 1.02,
+      "TDS": 0.54573,
+      "Time_out": 2.4236250136213475,
+      "line": "L12-13"
+    },
+    "backup_relay": {
+      "relay": "R72",
+      "line": "L12-22",
+      "pick_up": 0.08536,
+      "Ishc": 0.2,
+      "TDS": 0.53101,
+      "Time_out": 4.3285636702924695
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R49",
+      "pick_up": 0.06188,
+      "Ishc": 0.55,
+      "TDS": 0.49194,
+      "Time_out": 1.542025202962284,
+      "line": "L12-13"
+    },
+    "backup_relay": {
+      "relay": "R50",
+      "line": "L13-14",
+      "pick_up": 0.07467,
+      "Ishc": 0.55,
+      "TDS": 0.55004,
+      "Time_out": 1.8899401301276653
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R13",
+      "pick_up": 0.21481,
+      "Ishc": 0.63,
+      "TDS": 0.31032,
+      "Time_out": 1.9972298924753522,
+      "line": "L13-14"
+    },
+    "backup_relay": {
+      "relay": "R12",
+      "line": "L12-13",
+      "pick_up": 0.21609,
+      "Ishc": 0.63,
+      "TDS": 0.54573,
+      "Time_out": 3.5320485616839927
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R50",
+      "pick_up": 0.07467,
+      "Ishc": 0.72,
+      "TDS": 0.55004,
+      "Time_out": 1.6608111598173363,
+      "line": "L13-14"
+    },
+    "backup_relay": {
+      "relay": "R51",
+      "line": "L14-15",
+      "pick_up": 0.15368,
+      "Ishc": 0.72,
+      "TDS": 0.48668,
+      "Time_out": 2.1720175132750676
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R14",
+      "pick_up": 0.17235,
+      "Ishc": 0.48,
+      "TDS": 0.33377,
+      "Time_out": 2.2577702025426203,
+      "line": "L14-15"
+    },
+    "backup_relay": {
+      "relay": "R13",
+      "line": "L13-14",
+      "pick_up": 0.21481,
+      "Ishc": 0.48,
+      "TDS": 0.31032,
+      "Time_out": 2.6800187034462155
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R51",
+      "pick_up": 0.15368,
+      "Ishc": 0.88,
+      "TDS": 0.48668,
+      "Time_out": 1.9183733010922155,
+      "line": "L14-15"
+    },
+    "backup_relay": {
+      "relay": "R52",
+      "line": "L15-16",
+      "pick_up": 0.08186,
+      "Ishc": 0.15,
+      "TDS": 0.2252,
+      "Time_out": 2.587199440636442
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R51",
+      "pick_up": 0.15368,
+      "Ishc": 0.88,
+      "TDS": 0.48668,
+      "Time_out": 1.9183733010922155,
+      "line": "L14-15"
+    },
+    "backup_relay": {
+      "relay": "R34",
+      "line": "L9-15",
+      "pick_up": 0.34997,
+      "Ishc": 0.67,
+      "TDS": 0.41368,
+      "Time_out": 4.430028711564564
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R15",
+      "pick_up": 0.4627,
+      "Ishc": 1.1,
+      "TDS": 0.26484,
+      "Time_out": 2.1222869611520276,
+      "line": "L15-16"
+    },
+    "backup_relay": {
+      "relay": "R14",
+      "line": "L14-15",
+      "pick_up": 0.17235,
+      "Ishc": 0.36,
+      "TDS": 0.33377,
+      "Time_out": 3.1486508148442502
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R15",
+      "pick_up": 0.4627,
+      "Ishc": 1.1,
+      "TDS": 0.26484,
+      "Time_out": 2.1222869611520276,
+      "line": "L15-16"
+    },
+    "backup_relay": {
+      "relay": "R34",
+      "line": "L9-15",
+      "pick_up": 0.34997,
+      "Ishc": 0.67,
+      "TDS": 0.41368,
+      "Time_out": 4.430028711564564
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R52",
+      "pick_up": 0.08186,
+      "Ishc": 0.22,
+      "TDS": 0.2252,
+      "Time_out": 1.578838598191671,
+      "line": "L15-16"
+    },
+    "backup_relay": {
+      "relay": "R53",
+      "line": "L16-17",
+      "pick_up": 0.09603,
+      "Ishc": 0.22,
+      "TDS": 0.21485,
+      "Time_out": 1.799248190993072
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R16",
+      "pick_up": 0.12792,
+      "Ishc": 0.92,
+      "TDS": 0.61484,
+      "Time_out": 2.1386677034417367,
+      "line": "L16-17"
+    },
+    "backup_relay": {
+      "relay": "R15",
+      "line": "L15-16",
+      "pick_up": 0.4627,
+      "Ishc": 0.92,
+      "TDS": 0.26484,
+      "Time_out": 2.678861588479214
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R53",
+      "pick_up": 0.09603,
+      "Ishc": 0.35,
+      "TDS": 0.21485,
+      "Time_out": 1.1479279590715332,
+      "line": "L16-17"
+    },
+    "backup_relay": {
+      "relay": "R54",
+      "line": "L17-18",
+      "pick_up": 0.0653,
+      "Ishc": 0.35,
+      "TDS": 0.3305,
+      "Time_out": 1.3549463100769101
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R17",
+      "pick_up": 0.30186,
+      "Ishc": 0.66,
+      "TDS": 0.26339,
+      "Time_out": 2.3384884241245767,
+      "line": "L17-18"
+    },
+    "backup_relay": {
+      "relay": "R16",
+      "line": "L16-17",
+      "pick_up": 0.12792,
+      "Ishc": 0.66,
+      "TDS": 0.61484,
+      "Time_out": 2.5801785592690862
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R54",
+      "pick_up": 0.0653,
+      "Ishc": 0.43,
+      "TDS": 0.3305,
+      "Time_out": 1.2044659803769673,
+      "line": "L17-18"
+    },
+    "backup_relay": {
+      "relay": "R73",
+      "line": "L18-33",
+      "pick_up": 0.09398,
+      "Ishc": 0.43,
+      "TDS": 0.32104,
+      "Time_out": 1.455431110402544
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R36",
+      "pick_up": 0.15933,
+      "Ishc": 0.58,
+      "TDS": 0.48573,
+      "Time_out": 2.597706399352627,
+      "line": "L18-33"
+    },
+    "backup_relay": {
+      "relay": "R17",
+      "line": "L17-18",
+      "pick_up": 0.30186,
+      "Ishc": 0.58,
+      "TDS": 0.26339,
+      "Time_out": 2.804799071738925
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R73",
+      "pick_up": 0.09398,
+      "Ishc": 0.48,
+      "TDS": 0.32104,
+      "Time_out": 1.355753440410457,
+      "line": "L18-33"
+    },
+    "backup_relay": {
+      "relay": "R32",
+      "line": "L32-33",
+      "pick_up": 0.14428,
+      "Ishc": 0.48,
+      "TDS": 0.41225,
+      "Time_out": 2.371988060153528
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R19",
+      "pick_up": 0.14535,
+      "Ishc": 0.61,
+      "TDS": 0.27569,
+      "Time_out": 1.326266124882638,
+      "line": "L19-20"
+    },
+    "backup_relay": {
+      "relay": "R18",
+      "line": "L2-19",
+      "pick_up": 0.05014,
+      "Ishc": 0.61,
+      "TDS": 0.60247,
+      "Time_out": 1.6460126083795725
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R56",
+      "pick_up": 0.20261,
+      "Ishc": 0.77,
+      "TDS": 0.3962,
+      "Time_out": 2.0496752336630473,
+      "line": "L19-20"
+    },
+    "backup_relay": {
+      "relay": "R57",
+      "line": "L20-21",
+      "pick_up": 0.27803,
+      "Ishc": 0.77,
+      "TDS": 0.42097,
+      "Time_out": 2.8634380803364623
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R18",
+      "pick_up": 0.05014,
+      "Ishc": 0.68,
+      "TDS": 0.60247,
+      "Time_out": 1.5757031091051266,
+      "line": "L2-19"
+    },
+    "backup_relay": {
+      "relay": "R1",
+      "line": "L1-2",
+      "pick_up": 0,
+      "Ishc": 0,
+      "TDS": 0.05,
+      "Time_out": 0.0
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R18",
+      "pick_up": 0.05014,
+      "Ishc": 0.68,
+      "TDS": 0.60247,
+      "Time_out": 1.5757031091051266,
+      "line": "L2-19"
+    },
+    "backup_relay": {
+      "relay": "R39",
+      "line": "L2-3",
+      "pick_up": 0.32108,
+      "Ishc": 0.68,
+      "TDS": 0.2276,
+      "Time_out": 2.107235148968349
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R55",
+      "pick_up": 0.22682,
+      "Ishc": 0.49,
+      "TDS": 0.29176,
+      "Time_out": 2.6311366777449994,
+      "line": "L2-19"
+    },
+    "backup_relay": {
+      "relay": "R56",
+      "line": "L19-20",
+      "pick_up": 0.20261,
+      "Ishc": 0.49,
+      "TDS": 0.3962,
+      "Time_out": 3.112795519849234
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R2",
+      "pick_up": 0.20448,
+      "Ishc": 0.46,
+      "TDS": 0.19889,
+      "Time_out": 1.7033144003601597,
+      "line": "L2-3"
+    },
+    "backup_relay": {
+      "relay": "R1",
+      "line": "L1-2",
+      "pick_up": 0,
+      "Ishc": 0,
+      "TDS": 0.05,
+      "Time_out": 0.0
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R2",
+      "pick_up": 0.20448,
+      "Ishc": 0.46,
+      "TDS": 0.19889,
+      "Time_out": 1.7033144003601597,
+      "line": "L2-3"
+    },
+    "backup_relay": {
+      "relay": "R55",
+      "line": "L2-19",
+      "pick_up": 0.22682,
+      "Ishc": 0.46,
+      "TDS": 0.29176,
+      "Time_out": 2.868052893584135
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R39",
+      "pick_up": 0.32108,
+      "Ishc": 0.77,
+      "TDS": 0.2276,
+      "Time_out": 1.8055385208036685,
+      "line": "L2-3"
+    },
+    "backup_relay": {
+      "relay": "R40",
+      "line": "L3-4",
+      "pick_up": 0.31453,
+      "Ishc": 0.53,
+      "TDS": 0.22237,
+      "Time_out": 2.967591343235817
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R39",
+      "pick_up": 0.32108,
+      "Ishc": 0.77,
+      "TDS": 0.2276,
+      "Time_out": 1.8055385208036685,
+      "line": "L2-3"
+    },
+    "backup_relay": {
+      "relay": "R59",
+      "line": "L3-23",
+      "pick_up": 0.10275,
+      "Ishc": 0.24,
+      "TDS": 0.33127,
+      "Time_out": 2.7103205857888195
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R20",
+      "pick_up": 0.07114,
+      "Ishc": 0.34,
+      "TDS": 0.45864,
+      "Time_out": 2.020410946266886,
+      "line": "L20-21"
+    },
+    "backup_relay": {
+      "relay": "R19",
+      "line": "L19-20",
+      "pick_up": 0.14535,
+      "Ishc": 0.34,
+      "TDS": 0.27569,
+      "Time_out": 2.251676288274279
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R57",
+      "pick_up": 0.27803,
+      "Ishc": 0.93,
+      "TDS": 0.42097,
+      "Time_out": 2.4111463088871457,
+      "line": "L20-21"
+    },
+    "backup_relay": {
+      "relay": "R58",
+      "line": "L21-22",
+      "pick_up": 0.1442,
+      "Ishc": 0.42,
+      "TDS": 0.61676,
+      "Time_out": 3.9954315335508683
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R57",
+      "pick_up": 0.27803,
+      "Ishc": 0.93,
+      "TDS": 0.42097,
+      "Time_out": 2.4111463088871457,
+      "line": "L20-21"
+    },
+    "backup_relay": {
+      "relay": "R33",
+      "line": "L8-21",
+      "pick_up": 0.21825,
+      "Ishc": 0.51,
+      "TDS": 0.49845,
+      "Time_out": 4.076040454336609
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R21",
+      "pick_up": 0.0928,
+      "Ishc": 0.76,
+      "TDS": 0.59538,
+      "Time_out": 1.940505251302453,
+      "line": "L21-22"
+    },
+    "backup_relay": {
+      "relay": "R20",
+      "line": "L20-21",
+      "pick_up": 0.07114,
+      "Ishc": 0.26,
+      "TDS": 0.45864,
+      "Time_out": 2.445195211340662
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R21",
+      "pick_up": 0.0928,
+      "Ishc": 0.76,
+      "TDS": 0.59538,
+      "Time_out": 1.940505251302453,
+      "line": "L21-22"
+    },
+    "backup_relay": {
+      "relay": "R33",
+      "line": "L8-21",
+      "pick_up": 0.21825,
+      "Ishc": 0.5,
+      "TDS": 0.49845,
+      "Time_out": 4.174239054226189
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R58",
+      "pick_up": 0.1442,
+      "Ishc": 0.57,
+      "TDS": 0.61676,
+      "Time_out": 3.0981841046556204,
+      "line": "L21-22"
+    },
+    "backup_relay": {
+      "relay": "R35",
+      "line": "L12-22",
+      "pick_up": 0.11289,
+      "Ishc": 0.57,
+      "TDS": 0.78523,
+      "Time_out": 3.3399289707727746
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R33",
+      "pick_up": 0.21825,
+      "Ishc": 1.14,
+      "TDS": 0.49845,
+      "Time_out": 2.075917559367882,
+      "line": "L8-21"
+    },
+    "backup_relay": {
+      "relay": "R7",
+      "line": "L7-8",
+      "pick_up": 0.05841,
+      "Ishc": 0.1,
+      "TDS": 0.53994,
+      "Time_out": 6.991654405838132
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R33",
+      "pick_up": 0.21825,
+      "Ishc": 1.14,
+      "TDS": 0.49845,
+      "Time_out": 2.075917559367882,
+      "line": "L8-21"
+    },
+    "backup_relay": {
+      "relay": "R45",
+      "line": "L8-9",
+      "pick_up": 0.55531,
+      "Ishc": 1.04,
+      "TDS": 0.79389,
+      "Time_out": 8.801400480284236
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R70",
+      "pick_up": 0.07784,
+      "Ishc": 0.63,
+      "TDS": 0.75356,
+      "Time_out": 2.4702189365478486,
+      "line": "L8-21"
+    },
+    "backup_relay": {
+      "relay": "R58",
+      "line": "L21-22",
+      "pick_up": 0.1442,
+      "Ishc": 0.4,
+      "TDS": 0.61676,
+      "Time_out": 4.188547873126532
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R70",
+      "pick_up": 0.07784,
+      "Ishc": 0.63,
+      "TDS": 0.75356,
+      "Time_out": 2.4702189365478486,
+      "line": "L8-21"
+    },
+    "backup_relay": {
+      "relay": "R20",
+      "line": "L20-21",
+      "pick_up": 0.07114,
+      "Ishc": 0.23,
+      "TDS": 0.45864,
+      "Time_out": 2.7040009796032107
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R72",
+      "pick_up": 0.08536,
+      "Ishc": 1.06,
+      "TDS": 0.53101,
+      "Time_out": 1.4386688929086202,
+      "line": "L12-22"
+    },
+    "backup_relay": {
+      "relay": "R21",
+      "line": "L21-22",
+      "pick_up": 0.0928,
+      "Ishc": 0.25,
+      "TDS": 0.59538,
+      "Time_out": 4.163910068045992
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R35",
+      "pick_up": 0.11289,
+      "Ishc": 0.55,
+      "TDS": 0.78523,
+      "Time_out": 3.416492183918208,
+      "line": "L12-22"
+    },
+    "backup_relay": {
+      "relay": "R11",
+      "line": "L11-12",
+      "pick_up": 0.29091,
+      "Ishc": 0.49,
+      "TDS": 0.6129,
+      "Time_out": 8.185729970627067
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R35",
+      "pick_up": 0.11289,
+      "Ishc": 0.55,
+      "TDS": 0.78523,
+      "Time_out": 3.416492183918208,
+      "line": "L12-22"
+    },
+    "backup_relay": {
+      "relay": "R49",
+      "line": "L12-13",
+      "pick_up": 0.06188,
+      "Ishc": 0.14,
+      "TDS": 0.49194,
+      "Time_out": 4.183429261304475
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R23",
+      "pick_up": 0.17229,
+      "Ishc": 0.78,
+      "TDS": 0.34908,
+      "Time_out": 1.5938160176968772,
+      "line": "L23-24"
+    },
+    "backup_relay": {
+      "relay": "R22",
+      "line": "L3-23",
+      "pick_up": 0.14214,
+      "Ishc": 0.78,
+      "TDS": 0.49583,
+      "Time_out": 2.004166015862422
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R60",
+      "pick_up": 0.18179,
+      "Ishc": 0.46,
+      "TDS": 0.25826,
+      "Time_out": 1.9292741861735019,
+      "line": "L23-24"
+    },
+    "backup_relay": {
+      "relay": "R61",
+      "line": "L24-25",
+      "pick_up": 0.19222,
+      "Ishc": 0.46,
+      "TDS": 0.37227,
+      "Time_out": 2.960416148440733
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R24",
+      "pick_up": 0.24308,
+      "Ishc": 0.58,
+      "TDS": 0.195,
+      "Time_out": 1.556009100409893,
+      "line": "L24-25"
+    },
+    "backup_relay": {
+      "relay": "R23",
+      "line": "L23-24",
+      "pick_up": 0.17229,
+      "Ishc": 0.58,
+      "TDS": 0.34908,
+      "Time_out": 1.9887307926896631
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R61",
+      "pick_up": 0.19222,
+      "Ishc": 0.63,
+      "TDS": 0.37227,
+      "Time_out": 2.169255657630482,
+      "line": "L24-25"
+    },
+    "backup_relay": {
+      "relay": "R74",
+      "line": "L25-29",
+      "pick_up": 0.24286,
+      "Ishc": 0.63,
+      "TDS": 0.4397,
+      "Time_out": 3.198219387570705
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R37",
+      "pick_up": 0.08029,
+      "Ishc": 0.42,
+      "TDS": 0.53899,
+      "Time_out": 2.242732648248623,
+      "line": "L25-29"
+    },
+    "backup_relay": {
+      "relay": "R24",
+      "line": "L24-25",
+      "pick_up": 0.24308,
+      "Ishc": 0.42,
+      "TDS": 0.195,
+      "Time_out": 2.482424613800415
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R74",
+      "pick_up": 0.24286,
+      "Ishc": 0.76,
+      "TDS": 0.4397,
+      "Time_out": 2.6672782549661385,
+      "line": "L25-29"
+    },
+    "backup_relay": {
+      "relay": "R28",
+      "line": "L28-29",
+      "pick_up": 0.2131,
+      "Ishc": 0.46,
+      "TDS": 0.39069,
+      "Time_out": 3.526918821211834
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R74",
+      "pick_up": 0.24286,
+      "Ishc": 0.76,
+      "TDS": 0.4397,
+      "Time_out": 2.6672782549661385,
+      "line": "L25-29"
+    },
+    "backup_relay": {
+      "relay": "R66",
+      "line": "L29-30",
+      "pick_up": 0.10011,
+      "Ishc": 0.31,
+      "TDS": 0.51603,
+      "Time_out": 3.15980389176008
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R26",
+      "pick_up": 0.20452,
+      "Ishc": 1.02,
+      "TDS": 0.57558,
+      "Time_out": 2.467287030818582,
+      "line": "L26-27"
+    },
+    "backup_relay": {
+      "relay": "R25",
+      "line": "L6-26",
+      "pick_up": 0.25312,
+      "Ishc": 1.02,
+      "TDS": 0.64094,
+      "Time_out": 3.174542313361643
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R63",
+      "pick_up": 0.06002,
+      "Ishc": 0.24,
+      "TDS": 0.61079,
+      "Time_out": 3.0423268198493654,
+      "line": "L26-27"
+    },
+    "backup_relay": {
+      "relay": "R64",
+      "line": "L27-28",
+      "pick_up": 0.09556,
+      "Ishc": 0.24,
+      "TDS": 0.52732,
+      "Time_out": 3.9715641652678095
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R27",
+      "pick_up": 0.2079,
+      "Ishc": 0.91,
+      "TDS": 0.4439,
+      "Time_out": 2.0737443094990433,
+      "line": "L27-28"
+    },
+    "backup_relay": {
+      "relay": "R26",
+      "line": "L26-27",
+      "pick_up": 0.20452,
+      "Ishc": 0.91,
+      "TDS": 0.57558,
+      "Time_out": 2.6589433344041744
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R64",
+      "pick_up": 0.09556,
+      "Ishc": 0.44,
+      "TDS": 0.52732,
+      "Time_out": 2.3805581796225743,
+      "line": "L27-28"
+    },
+    "backup_relay": {
+      "relay": "R65",
+      "line": "L28-29",
+      "pick_up": 0.16964,
+      "Ishc": 0.44,
+      "TDS": 0.38724,
+      "Time_out": 2.817057439166455
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R28",
+      "pick_up": 0.2131,
+      "Ishc": 0.63,
+      "TDS": 0.39069,
+      "Time_out": 2.4957535203826082,
+      "line": "L28-29"
+    },
+    "backup_relay": {
+      "relay": "R27",
+      "line": "L27-28",
+      "pick_up": 0.2079,
+      "Ishc": 0.63,
+      "TDS": 0.4439,
+      "Time_out": 2.7717880685577505
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R65",
+      "pick_up": 0.16964,
+      "Ishc": 0.62,
+      "TDS": 0.38724,
+      "Time_out": 2.0645183187303213,
+      "line": "L28-29"
+    },
+    "backup_relay": {
+      "relay": "R37",
+      "line": "L25-29",
+      "pick_up": 0.08029,
+      "Ishc": 0.32,
+      "TDS": 0.53899,
+      "Time_out": 2.6911606659750236
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R65",
+      "pick_up": 0.16964,
+      "Ishc": 0.62,
+      "TDS": 0.38724,
+      "Time_out": 2.0645183187303213,
+      "line": "L28-29"
+    },
+    "backup_relay": {
+      "relay": "R66",
+      "line": "L29-30",
+      "pick_up": 0.10011,
+      "Ishc": 0.31,
+      "TDS": 0.51603,
+      "Time_out": 3.15980389176008
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R29",
+      "pick_up": 0.34975,
+      "Ishc": 0.79,
+      "TDS": 0.26849,
+      "Time_out": 2.28783129479844,
+      "line": "L29-30"
+    },
+    "backup_relay": {
+      "relay": "R28",
+      "line": "L28-29",
+      "pick_up": 0.2131,
+      "Ishc": 0.46,
+      "TDS": 0.39069,
+      "Time_out": 3.526918821211834
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R29",
+      "pick_up": 0.34975,
+      "Ishc": 0.79,
+      "TDS": 0.26849,
+      "Time_out": 2.28783129479844,
+      "line": "L29-30"
+    },
+    "backup_relay": {
+      "relay": "R37",
+      "line": "L25-29",
+      "pick_up": 0.08029,
+      "Ishc": 0.33,
+      "TDS": 0.53899,
+      "Time_out": 2.6317586397174155
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R66",
+      "pick_up": 0.10011,
+      "Ishc": 0.35,
+      "TDS": 0.51603,
+      "Time_out": 2.8499558468532804,
+      "line": "L29-30"
+    },
+    "backup_relay": {
+      "relay": "R67",
+      "line": "L30-31",
+      "pick_up": 0.15547,
+      "Ishc": 0.35,
+      "TDS": 0.36477,
+      "Time_out": 3.121117761451023
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R22",
+      "pick_up": 0.14214,
+      "Ishc": 0.91,
+      "TDS": 0.49583,
+      "Time_out": 1.8349185071445897,
+      "line": "L3-23"
+    },
+    "backup_relay": {
+      "relay": "R2",
+      "line": "L2-3",
+      "pick_up": 0.20448,
+      "Ishc": 0.38,
+      "TDS": 0.19889,
+      "Time_out": 2.232721869837445
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R22",
+      "pick_up": 0.14214,
+      "Ishc": 0.91,
+      "TDS": 0.49583,
+      "Time_out": 1.8349185071445897,
+      "line": "L3-23"
+    },
+    "backup_relay": {
+      "relay": "R40",
+      "line": "L3-4",
+      "pick_up": 0.31453,
+      "Ishc": 0.53,
+      "TDS": 0.22237,
+      "Time_out": 2.967591343235817
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R59",
+      "pick_up": 0.10275,
+      "Ishc": 0.31,
+      "TDS": 0.33127,
+      "Time_out": 2.07682017682802,
+      "line": "L3-23"
+    },
+    "backup_relay": {
+      "relay": "R60",
+      "line": "L23-24",
+      "pick_up": 0.18179,
+      "Ishc": 0.31,
+      "TDS": 0.25826,
+      "Time_out": 3.3691599583405063
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R3",
+      "pick_up": 0.13842,
+      "Ishc": 0.62,
+      "TDS": 0.42624,
+      "Time_out": 1.9601925430855445,
+      "line": "L3-4"
+    },
+    "backup_relay": {
+      "relay": "R2",
+      "line": "L2-3",
+      "pick_up": 0.20448,
+      "Ishc": 0.38,
+      "TDS": 0.19889,
+      "Time_out": 2.232721869837445
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R3",
+      "pick_up": 0.13842,
+      "Ishc": 0.62,
+      "TDS": 0.42624,
+      "Time_out": 1.9601925430855445,
+      "line": "L3-4"
+    },
+    "backup_relay": {
+      "relay": "R59",
+      "line": "L3-23",
+      "pick_up": 0.10275,
+      "Ishc": 0.24,
+      "TDS": 0.33127,
+      "Time_out": 2.7103205857888195
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R40",
+      "pick_up": 0.31453,
+      "Ishc": 0.62,
+      "TDS": 0.22237,
+      "Time_out": 2.278159576597114,
+      "line": "L3-4"
+    },
+    "backup_relay": {
+      "relay": "R41",
+      "line": "L4-5",
+      "pick_up": 0.26461,
+      "Ishc": 0.62,
+      "TDS": 0.32258,
+      "Time_out": 2.6294619070996332
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R30",
+      "pick_up": 0.17777,
+      "Ishc": 0.71,
+      "TDS": 0.44849,
+      "Time_out": 2.2358563743740736,
+      "line": "L30-31"
+    },
+    "backup_relay": {
+      "relay": "R29",
+      "line": "L29-30",
+      "pick_up": 0.34975,
+      "Ishc": 0.71,
+      "TDS": 0.26849,
+      "Time_out": 2.635638407407831
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R67",
+      "pick_up": 0.15547,
+      "Ishc": 0.43,
+      "TDS": 0.36477,
+      "Time_out": 2.484440257766401,
+      "line": "L30-31"
+    },
+    "backup_relay": {
+      "relay": "R68",
+      "line": "L31-32",
+      "pick_up": 0.07514,
+      "Ishc": 0.43,
+      "TDS": 0.67629,
+      "Time_out": 2.6667292241466036
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R31",
+      "pick_up": 0.21465,
+      "Ishc": 0.58,
+      "TDS": 0.32645,
+      "Time_out": 2.2761232204962356,
+      "line": "L31-32"
+    },
+    "backup_relay": {
+      "relay": "R30",
+      "line": "L30-31",
+      "pick_up": 0.17777,
+      "Ishc": 0.58,
+      "TDS": 0.44849,
+      "Time_out": 2.623554295487813
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R68",
+      "pick_up": 0.07514,
+      "Ishc": 0.47,
+      "TDS": 0.67629,
+      "Time_out": 2.5350819439905488,
+      "line": "L31-32"
+    },
+    "backup_relay": {
+      "relay": "R69",
+      "line": "L32-33",
+      "pick_up": 0.06787,
+      "Ishc": 0.47,
+      "TDS": 0.76899,
+      "Time_out": 2.7281946615096904
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R32",
+      "pick_up": 0.14428,
+      "Ishc": 0.53,
+      "TDS": 0.41225,
+      "Time_out": 2.1891625832678527,
+      "line": "L32-33"
+    },
+    "backup_relay": {
+      "relay": "R31",
+      "line": "L31-32",
+      "pick_up": 0.21465,
+      "Ishc": 0.53,
+      "TDS": 0.32645,
+      "Time_out": 2.5054067130811797
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R69",
+      "pick_up": 0.06787,
+      "Ishc": 0.52,
+      "TDS": 0.76899,
+      "Time_out": 2.5901065602729156,
+      "line": "L32-33"
+    },
+    "backup_relay": {
+      "relay": "R36",
+      "line": "L18-33",
+      "pick_up": 0.15933,
+      "Ishc": 0.52,
+      "TDS": 0.48573,
+      "Time_out": 2.8406363169485287
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R4",
+      "pick_up": 0.11886,
+      "Ishc": 0.53,
+      "TDS": 0.37783,
+      "Time_out": 1.7428694079814597,
+      "line": "L4-5"
+    },
+    "backup_relay": {
+      "relay": "R3",
+      "line": "L3-4",
+      "pick_up": 0.13842,
+      "Ishc": 0.53,
+      "TDS": 0.42624,
+      "Time_out": 2.1926373519543674
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R41",
+      "pick_up": 0.26461,
+      "Ishc": 0.72,
+      "TDS": 0.32258,
+      "Time_out": 2.233312081246694,
+      "line": "L4-5"
+    },
+    "backup_relay": {
+      "relay": "R42",
+      "line": "L5-6",
+      "pick_up": 0.29841,
+      "Ishc": 0.72,
+      "TDS": 0.66546,
+      "Time_out": 5.2422816236448515
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R5",
+      "pick_up": 0.12208,
+      "Ishc": 0.42,
+      "TDS": 0.3253,
+      "Time_out": 1.8202657099270727,
+      "line": "L5-6"
+    },
+    "backup_relay": {
+      "relay": "R4",
+      "line": "L4-5",
+      "pick_up": 0.11886,
+      "Ishc": 0.42,
+      "TDS": 0.37783,
+      "Time_out": 2.068880200329131
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R42",
+      "pick_up": 0.29841,
+      "Ishc": 1,
+      "TDS": 0.66546,
+      "Time_out": 3.8056443227938908,
+      "line": "L5-6"
+    },
+    "backup_relay": {
+      "relay": "R43",
+      "line": "L6-7",
+      "pick_up": 0.39654,
+      "Ishc": 0.85,
+      "TDS": 0.65898,
+      "Time_out": 6.003962988015664
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R42",
+      "pick_up": 0.29841,
+      "Ishc": 1,
+      "TDS": 0.66546,
+      "Time_out": 3.8056443227938908,
+      "line": "L5-6"
+    },
+    "backup_relay": {
+      "relay": "R62",
+      "line": "L6-26",
+      "pick_up": 0.05957,
+      "Ishc": 0.14,
+      "TDS": 0.51712,
+      "Time_out": 4.200160947436324
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R25",
+      "pick_up": 0.25312,
+      "Ishc": 1.08,
+      "TDS": 0.64094,
+      "Time_out": 3.0477258871607753,
+      "line": "L6-26"
+    },
+    "backup_relay": {
+      "relay": "R5",
+      "line": "L5-6",
+      "pick_up": 0.12208,
+      "Ishc": 0.21,
+      "TDS": 0.3253,
+      "Time_out": 4.175223745250603
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R25",
+      "pick_up": 0.25312,
+      "Ishc": 1.08,
+      "TDS": 0.64094,
+      "Time_out": 3.0477258871607753,
+      "line": "L6-26"
+    },
+    "backup_relay": {
+      "relay": "R43",
+      "line": "L6-7",
+      "pick_up": 0.39654,
+      "Ishc": 0.87,
+      "TDS": 0.65898,
+      "Time_out": 5.8248899420032485
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R62",
+      "pick_up": 0.05957,
+      "Ishc": 0.19,
+      "TDS": 0.51712,
+      "Time_out": 3.0848377017399837,
+      "line": "L6-26"
+    },
+    "backup_relay": {
+      "relay": "R63",
+      "line": "L26-27",
+      "pick_up": 0.06002,
+      "Ishc": 0.19,
+      "TDS": 0.61079,
+      "Time_out": 3.6676913769724546
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R6",
+      "pick_up": 0.06838,
+      "Ishc": 0.36,
+      "TDS": 0.65411,
+      "Time_out": 2.7110611227203862,
+      "line": "L6-7"
+    },
+    "backup_relay": {
+      "relay": "R5",
+      "line": "L5-6",
+      "pick_up": 0.12208,
+      "Ishc": 0.21,
+      "TDS": 0.3253,
+      "Time_out": 4.175223745250603
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R6",
+      "pick_up": 0.06838,
+      "Ishc": 0.36,
+      "TDS": 0.65411,
+      "Time_out": 2.7110611227203862,
+      "line": "L6-7"
+    },
+    "backup_relay": {
+      "relay": "R62",
+      "line": "L6-26",
+      "pick_up": 0.05957,
+      "Ishc": 0.15,
+      "TDS": 0.51712,
+      "Time_out": 3.8836811303858134
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R43",
+      "pick_up": 0.39654,
+      "Ishc": 1.02,
+      "TDS": 0.65898,
+      "Time_out": 4.836481559978404,
+      "line": "L6-7"
+    },
+    "backup_relay": {
+      "relay": "R44",
+      "line": "L7-8",
+      "pick_up": 0.5252,
+      "Ishc": 1.02,
+      "TDS": 0.5493,
+      "Time_out": 5.7543773959005735
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R7",
+      "pick_up": 0.05841,
+      "Ishc": 0.27,
+      "TDS": 0.53994,
+      "Time_out": 2.431202325027221,
+      "line": "L7-8"
+    },
+    "backup_relay": {
+      "relay": "R6",
+      "line": "L6-7",
+      "pick_up": 0.06838,
+      "Ishc": 0.27,
+      "TDS": 0.65411,
+      "Time_out": 3.288457722036131
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R44",
+      "pick_up": 0.5252,
+      "Ishc": 1.23,
+      "TDS": 0.5493,
+      "Time_out": 4.480040916358329,
+      "line": "L7-8"
+    },
+    "backup_relay": {
+      "relay": "R70",
+      "line": "L8-21",
+      "pick_up": 0.07784,
+      "Ishc": 0.13,
+      "TDS": 0.75356,
+      "Time_out": 10.232261732232724
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R44",
+      "pick_up": 0.5252,
+      "Ishc": 1.23,
+      "TDS": 0.5493,
+      "Time_out": 4.480040916358329,
+      "line": "L7-8"
+    },
+    "backup_relay": {
+      "relay": "R45",
+      "line": "L8-9",
+      "pick_up": 0.55531,
+      "Ishc": 1.09,
+      "TDS": 0.79389,
+      "Time_out": 8.18473171674099
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R8",
+      "pick_up": 0.01669,
+      "Ishc": 0.26,
+      "TDS": 0.4407,
+      "Time_out": 1.092901633606745,
+      "line": "L8-9"
+    },
+    "backup_relay": {
+      "relay": "R7",
+      "line": "L7-8",
+      "pick_up": 0.05841,
+      "Ishc": 0.12,
+      "TDS": 0.53994,
+      "Time_out": 5.211677785924566
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R8",
+      "pick_up": 0.01669,
+      "Ishc": 0.26,
+      "TDS": 0.4407,
+      "Time_out": 1.092901633606745,
+      "line": "L8-9"
+    },
+    "backup_relay": {
+      "relay": "R70",
+      "line": "L8-21",
+      "pick_up": 0.07784,
+      "Ishc": 0.13,
+      "TDS": 0.75356,
+      "Time_out": 10.232261732232724
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R45",
+      "pick_up": 0.55531,
+      "Ishc": 1.5,
+      "TDS": 0.79389,
+      "Time_out": 5.537108780766191,
+      "line": "L8-9"
+    },
+    "backup_relay": {
+      "relay": "R46",
+      "line": "L9-10",
+      "pick_up": 0.04271,
+      "Ishc": 0.01,
+      "TDS": 0.58375,
+      "Time_out": Infinity
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R45",
+      "pick_up": 0.55531,
+      "Ishc": 1.5,
+      "TDS": 0.79389,
+      "Time_out": 5.537108780766191,
+      "line": "L8-9"
+    },
+    "backup_relay": {
+      "relay": "R71",
+      "line": "L9-15",
+      "pick_up": 0.02936,
+      "Ishc": 0.03,
+      "TDS": 0.18465,
+      "Time_out": 59.92675896556786
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R9",
+      "pick_up": 0.58739,
+      "Ishc": 1.49,
+      "TDS": 0.74018,
+      "Time_out": 5.514553543806808,
+      "line": "L9-10"
+    },
+    "backup_relay": {
+      "relay": "R8",
+      "line": "L8-9",
+      "pick_up": 0.01669,
+      "Ishc": 0.01,
+      "TDS": 0.4407,
+      "Time_out": Infinity
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R9",
+      "pick_up": 0.58739,
+      "Ishc": 1.49,
+      "TDS": 0.74018,
+      "Time_out": 5.514553543806808,
+      "line": "L9-10"
+    },
+    "backup_relay": {
+      "relay": "R71",
+      "line": "L9-15",
+      "pick_up": 0.02936,
+      "Ishc": 0.02,
+      "TDS": 0.18465,
+      "Time_out": Infinity
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R46",
+      "pick_up": 0.04271,
+      "Ishc": 0.33,
+      "TDS": 0.58375,
+      "Time_out": 1.9579149404592202,
+      "line": "L9-10"
+    },
+    "backup_relay": {
+      "relay": "R47",
+      "line": "L10-11",
+      "pick_up": 0.11104,
+      "Ishc": 0.33,
+      "TDS": 0.39325,
+      "Time_out": 2.4998810606718367
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R34",
+      "pick_up": 0.34997,
+      "Ishc": 1.4,
+      "TDS": 0.41368,
+      "Time_out": 2.059896364229115,
+      "line": "L9-15"
+    },
+    "backup_relay": {
+      "relay": "R8",
+      "line": "L8-9",
+      "pick_up": 0.01669,
+      "Ishc": 0.02,
+      "TDS": 0.4407,
+      "Time_out": 17.020113451531447
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "10",
+    "main_relay": {
+      "relay": "R34",
+      "pick_up": 0.34997,
+      "Ishc": 1.4,
+      "TDS": 0.41368,
+      "Time_out": 2.059896364229115,
+      "line": "L9-15"
+    },
+    "backup_relay": {
+      "relay": "R46",
+      "line": "L9-10",
+      "pick_up": 0.04271,
+      "Ishc": 0.02,
+      "TDS": 0.58375,
+      "Time_out": Infinity
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R71",
+      "pick_up": 0.02936,
+      "Ishc": 0.54,
+      "TDS": 0.18465,
+      "Time_out": 0.431079911363596,
+      "line": "L9-15"
+    },
+    "backup_relay": {
+      "relay": "R14",
+      "line": "L14-15",
+      "pick_up": 0.17235,
+      "Ishc": 0.33,
+      "TDS": 0.33377,
+      "Time_out": 3.5735379647949435
+    }
+  },
+  {
+    "scenario_id": "scenario_50",
+    "fault": "90",
+    "main_relay": {
+      "relay": "R71",
+      "pick_up": 0.02936,
+      "Ishc": 0.54,
+      "TDS": 0.18465,
+      "Time_out": 0.431079911363596,
+      "line": "L9-15"
+    },
+    "backup_relay": {
+      "relay": "R52",
+      "line": "L15-16",
+      "pick_up": 0.08186,
+      "Ishc": 0.14,
+      "TDS": 0.2252,
+      "Time_out": 2.921845524550625
+    }
+  }
+]

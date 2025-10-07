@@ -1,0 +1,59 @@
+BEFORE vs AFTER TMT ANALYSIS REPORT
+==================================================
+
+Analysis Date: 2025-10-07 17:06:00
+Data Source (BEFORE): automation_results.json
+Optimized Files (AFTER): ['automation_results_scenario_18', 'automation_results_scenario_10', 'automation_results_scenario_3', 'automation_results_scenario_61', 'automation_results_scenario_17', 'automation_results_scenario_66', 'automation_results_scenario_4', 'automation_results_scenario_16', 'automation_results_scenario_5', 'automation_results_scenario_67', 'automation_results_scenario_11', 'automation_results_scenario_60', 'automation_results_scenario_2', 'automation_results_scenario_68', 'automation_results_scenario_19', 'automation_results_scenario_62', 'automation_results_scenario_13', 'automation_results_scenario_8', 'automation_results_scenario_65', 'automation_results_scenario_7', 'automation_results_scenario_14', 'automation_results_scenario_6', 'automation_results_scenario_64', 'automation_results_scenario_15', 'automation_results_scenario_9', 'automation_results_scenario_63', 'automation_results_scenario_1', 'automation_results_scenario_12', 'automation_results_scenario_42', 'automation_results_scenario_57', 'automation_results_scenario_26', 'automation_results_scenario_33', 'automation_results_scenario_29', 'automation_results_scenario_58', 'automation_results_scenario_50', 'automation_results_scenario_45', 'automation_results_scenario_34', 'automation_results_scenario_21', 'automation_results_scenario_44', 'automation_results_scenario_51', 'automation_results_scenario_20', 'automation_results_scenario_35', 'automation_results_scenario_28', 'automation_results_scenario_59', 'automation_results_scenario_56', 'automation_results_scenario_43', 'automation_results_scenario_32', 'automation_results_scenario_27', 'automation_results_scenario_30', 'automation_results_scenario_25', 'automation_results_scenario_54', 'automation_results_scenario_41', 'automation_results_scenario_49', 'automation_results_scenario_38', 'automation_results_scenario_22', 'automation_results_scenario_37', 'automation_results_scenario_46', 'automation_results_scenario_53', 'automation_results_scenario_36', 'automation_results_scenario_23', 'automation_results_scenario_52', 'automation_results_scenario_47', 'automation_results_scenario_48', 'automation_results_scenario_39', 'automation_results_scenario_24', 'automation_results_scenario_31', 'automation_results_scenario_40', 'automation_results_scenario_55', 'scenario_1']
+CTI Threshold: 0.2 seconds
+
+OVERALL STATISTICS
+--------------------
+Total Scenarios Analyzed: 1
+Mean TMT BEFORE: 0.000 seconds
+Mean TMT AFTER: 0.000 seconds
+Mean TMT Improvement: +0.000 seconds
+Mean Coordination BEFORE: 0.0%
+Mean Coordination AFTER: 100.0%
+Mean Coordination Improvement: +100.0%
+Best Improvement Scenario: automation_results_scenario_1
+Worst Improvement Scenario: automation_results_scenario_1
+
+SCENARIO DETAILS
+--------------------
+
+Scenario: automation_results_scenario_1
+  Total Pairs: 0
+  TMT BEFORE: 0.000 seconds
+  TMT AFTER: 0.000 seconds
+  TMT Improvement: +0.000 seconds (+0.0%)
+  Coordination BEFORE: 0.0%
+  Coordination AFTER: 100.0%
+  Coordination Improvement: +100.0%
+  Mean DT BEFORE: 0.000 seconds
+  Mean DT AFTER: 0.858 seconds
+  DT Std Dev BEFORE: 0.000 seconds
+  DT Std Dev AFTER: 1.027 seconds
+
+
+OPTIMIZATION EFFECTIVENESS ASSESSMENT
+----------------------------------------
+
+Scenario: automation_results_scenario_1
+  Effectiveness: Minimally Effective
+  Priority: High
+  TMT Improvement: +0.000 seconds
+  Coord Improvement: +100.0%
+  Recommendation: Optimization had minimal impact
+
+
+RECOMMENDATIONS
+--------------------
+High Priority Scenarios: automation_results_scenario_1
+These scenarios require immediate attention for optimization.
+
+General Recommendations:
+1. Focus on scenarios with negative TMT improvements
+2. Investigate scenarios with minimal coordination improvements
+3. Consider different optimization strategies for ineffective scenarios
+4. Implement monitoring for scenarios showing high variability
+5. Review optimization parameters for scenarios with poor performance

@@ -1,0 +1,597 @@
+COMPREHENSIVE ANALYSIS REPORT - ALL 68 SCENARIOS
+============================================================
+
+Analysis Date: 2025-10-07 17:06:00
+Data Source: automation_results.json
+CTI Threshold: 0.2 seconds
+Total Scenarios Analyzed: 69
+Scenarios with Optimization: 68
+Scenarios without Optimization: 1
+
+OVERALL STATISTICS
+------------------------------
+Mean TMT (All Scenarios): -0.230 seconds
+TMT Range: -15.854 to 0.000 seconds
+Mean Coordination (All Scenarios): 0.2%
+Coordination Range: 0.0% to 12.0%
+
+SCENARIOS WITH OPTIMIZATION
+----------------------------------------
+Mean TMT Improvement: -2.528 seconds
+Mean Coordination Improvement: +97.4%
+Scenarios with Positive TMT Improvement: 0
+Scenarios with Positive Coord Improvement: 68
+
+Best TMT Improvement: automation_results_scenario_61 (+0.000s)
+Worst TMT Improvement: automation_results_scenario_2 (-6.960s)
+
+DETAILED SCENARIO ANALYSIS
+----------------------------------------
+
+ 1. Scenario: scenario_1
+    TMT: -15.854s
+    Coordination: 12.0%
+    Total Pairs: 100
+    Status: NOT OPTIMIZED
+
+ 2. Scenario: automation_results_scenario_18
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -4.717s
+    Coord Improvement: +98.0%
+
+ 3. Scenario: automation_results_scenario_10
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -4.735s
+    Coord Improvement: +97.0%
+
+ 4. Scenario: automation_results_scenario_3
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.875s
+    Coord Improvement: +98.0%
+
+ 5. Scenario: automation_results_scenario_61
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+ 6. Scenario: automation_results_scenario_17
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -2.892s
+    Coord Improvement: +94.0%
+
+ 7. Scenario: automation_results_scenario_66
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.004s
+    Coord Improvement: +99.0%
+
+ 8. Scenario: automation_results_scenario_4
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.305s
+    Coord Improvement: +93.0%
+
+ 9. Scenario: automation_results_scenario_16
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -3.905s
+    Coord Improvement: +91.0%
+
+10. Scenario: automation_results_scenario_5
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.156s
+    Coord Improvement: +97.0%
+
+11. Scenario: automation_results_scenario_67
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+12. Scenario: automation_results_scenario_11
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -4.318s
+    Coord Improvement: +98.0%
+
+13. Scenario: automation_results_scenario_60
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+14. Scenario: automation_results_scenario_2
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -6.960s
+    Coord Improvement: +97.0%
+
+15. Scenario: automation_results_scenario_68
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.010s
+    Coord Improvement: +99.0%
+
+16. Scenario: automation_results_scenario_19
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -3.899s
+    Coord Improvement: +98.0%
+
+17. Scenario: automation_results_scenario_62
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.197s
+    Coord Improvement: +88.0%
+
+18. Scenario: automation_results_scenario_13
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -4.917s
+    Coord Improvement: +90.0%
+
+19. Scenario: automation_results_scenario_8
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.809s
+    Coord Improvement: +98.0%
+
+20. Scenario: automation_results_scenario_65
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.196s
+    Coord Improvement: +96.0%
+
+21. Scenario: automation_results_scenario_7
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.646s
+    Coord Improvement: +98.0%
+
+22. Scenario: automation_results_scenario_14
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -4.346s
+    Coord Improvement: +98.0%
+
+23. Scenario: automation_results_scenario_6
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.286s
+    Coord Improvement: +98.0%
+
+24. Scenario: automation_results_scenario_64
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.002s
+    Coord Improvement: +99.0%
+
+25. Scenario: automation_results_scenario_15
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -6.027s
+    Coord Improvement: +98.0%
+
+26. Scenario: automation_results_scenario_9
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.301s
+    Coord Improvement: +98.0%
+
+27. Scenario: automation_results_scenario_63
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.005s
+    Coord Improvement: +98.0%
+
+28. Scenario: automation_results_scenario_1
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+29. Scenario: automation_results_scenario_12
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.515s
+    Coord Improvement: +98.0%
+
+30. Scenario: automation_results_scenario_42
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -4.611s
+    Coord Improvement: +98.0%
+
+31. Scenario: automation_results_scenario_57
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+32. Scenario: automation_results_scenario_26
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.377s
+    Coord Improvement: +92.0%
+
+33. Scenario: automation_results_scenario_33
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+34. Scenario: automation_results_scenario_29
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.506s
+    Coord Improvement: +91.0%
+
+35. Scenario: automation_results_scenario_58
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.139s
+    Coord Improvement: +97.0%
+
+36. Scenario: automation_results_scenario_50
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -3.704s
+    Coord Improvement: +96.0%
+
+37. Scenario: automation_results_scenario_45
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -4.816s
+    Coord Improvement: +96.0%
+
+38. Scenario: automation_results_scenario_34
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+39. Scenario: automation_results_scenario_21
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+40. Scenario: automation_results_scenario_44
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -4.412s
+    Coord Improvement: +98.0%
+
+41. Scenario: automation_results_scenario_51
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.247s
+    Coord Improvement: +96.0%
+
+42. Scenario: automation_results_scenario_20
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.054s
+    Coord Improvement: +98.0%
+
+43. Scenario: automation_results_scenario_35
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.005s
+    Coord Improvement: +99.0%
+
+44. Scenario: automation_results_scenario_28
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+45. Scenario: automation_results_scenario_59
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+46. Scenario: automation_results_scenario_56
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+47. Scenario: automation_results_scenario_43
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -3.959s
+    Coord Improvement: +98.0%
+
+48. Scenario: automation_results_scenario_32
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.103s
+    Coord Improvement: +96.0%
+
+49. Scenario: automation_results_scenario_27
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+50. Scenario: automation_results_scenario_30
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.003s
+    Coord Improvement: +99.0%
+
+51. Scenario: automation_results_scenario_25
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+52. Scenario: automation_results_scenario_54
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.089s
+    Coord Improvement: +93.0%
+
+53. Scenario: automation_results_scenario_41
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.424s
+    Coord Improvement: +98.0%
+
+54. Scenario: automation_results_scenario_49
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -4.181s
+    Coord Improvement: +93.0%
+
+55. Scenario: automation_results_scenario_38
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.006s
+    Coord Improvement: +98.0%
+
+56. Scenario: automation_results_scenario_22
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.014s
+    Coord Improvement: +98.0%
+
+57. Scenario: automation_results_scenario_37
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.261s
+    Coord Improvement: +98.0%
+
+58. Scenario: automation_results_scenario_46
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.827s
+    Coord Improvement: +98.0%
+
+59. Scenario: automation_results_scenario_53
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.061s
+    Coord Improvement: +97.0%
+
+60. Scenario: automation_results_scenario_36
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+61. Scenario: automation_results_scenario_23
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+62. Scenario: automation_results_scenario_52
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.803s
+    Coord Improvement: +97.0%
+
+63. Scenario: automation_results_scenario_47
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -6.070s
+    Coord Improvement: +98.0%
+
+64. Scenario: automation_results_scenario_48
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.107s
+    Coord Improvement: +97.0%
+
+65. Scenario: automation_results_scenario_39
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -5.534s
+    Coord Improvement: +98.0%
+
+66. Scenario: automation_results_scenario_24
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+67. Scenario: automation_results_scenario_31
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -0.143s
+    Coord Improvement: +97.0%
+
+68. Scenario: automation_results_scenario_40
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: -4.401s
+    Coord Improvement: +92.0%
+
+69. Scenario: automation_results_scenario_55
+    TMT: +0.000s
+    Coordination: 0.0%
+    Total Pairs: 0
+    Status: OPTIMIZED
+    TMT Improvement: +0.000s
+    Coord Improvement: +100.0%
+
+
+RECOMMENDATIONS
+--------------------
+Priority Scenarios for Optimization:
+ 1. scenario_1: TMT=-15.854s, Coord=12.0%
+ 2. automation_results_scenario_18: TMT=+0.000s, Coord=0.0%
+ 3. automation_results_scenario_10: TMT=+0.000s, Coord=0.0%
+ 4. automation_results_scenario_3: TMT=+0.000s, Coord=0.0%
+ 5. automation_results_scenario_61: TMT=+0.000s, Coord=0.0%
+ 6. automation_results_scenario_17: TMT=+0.000s, Coord=0.0%
+ 7. automation_results_scenario_66: TMT=+0.000s, Coord=0.0%
+ 8. automation_results_scenario_4: TMT=+0.000s, Coord=0.0%
+ 9. automation_results_scenario_16: TMT=+0.000s, Coord=0.0%
+10. automation_results_scenario_5: TMT=+0.000s, Coord=0.0%
+
+Total scenarios requiring optimization: 1
+Scenarios with good performance: 68

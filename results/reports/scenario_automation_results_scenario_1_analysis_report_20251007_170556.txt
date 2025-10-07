@@ -1,0 +1,35 @@
+INDIVIDUAL SCENARIO ANALYSIS REPORT - AUTOMATION_RESULTS_SCENARIO_1
+============================================================
+
+Analysis Date: 2025-10-07 17:06:00
+Scenario: automation_results_scenario_1
+CTI Threshold: 0.2 seconds
+
+SUMMARY METRICS
+--------------------
+Total Pairs: 0
+TMT BEFORE: 0.000 seconds
+TMT AFTER: 0.000 seconds
+TMT Improvement: +0.000 seconds (+0.0%)
+Coordination BEFORE: 0.0%
+Coordination AFTER: 100.0%
+Coordination Improvement: +100.0%
+
+STATISTICAL ANALYSIS
+--------------------
+Mean DT BEFORE: 0.000 seconds
+Mean DT AFTER: 0.858 seconds
+DT Std Dev BEFORE: 0.000 seconds
+DT Std Dev AFTER: 1.027 seconds
+DT Range BEFORE: 0.000 to 0.000 seconds
+DT Range AFTER: 0.002 to 4.512 seconds
+
+PAIRS ANALYSIS
+--------------------
+No pairs data available for analysis
+
+RECOMMENDATIONS
+--------------------
+⚠️  Optimization did not improve TMT - consider different approach
+✅ Coordination percentage improved
+ℹ️  No pairs data available for comparison
