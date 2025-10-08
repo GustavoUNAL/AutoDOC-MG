@@ -48,6 +48,14 @@ python scripts/analyze_problematic_scenario.py
 - `analysis/notebooks/tmt_optimization_ga.ipynb` - Genetic algorithm optimization
 - `analysis/notebooks/scenario_2_problematic_analysis.ipynb` - Analysis of worst-performing scenario
 - `analysis/notebooks/scenario_14_best_performance_analysis.ipynb` - Analysis of best-performing scenario
+- `analysis/notebooks/01.tmt_analysis_automation_all_scenarios.ipynb` - Automated analysis pipeline with comprehensive visualizations and inline results
+- `analysis/notebooks/03.tmt_analysis_comparison_before_after.ipynb` - Before/after optimization comparison analysis
+
+### Plots
+- Generated charts saved in `results/plots/tmt_analysis/`:
+  - `tmt_before_after_per_scenario.png`
+  - `coord_before_after_per_scenario.png`
+  - `coord_vs_tmt_before_after.png`
 
 ### Documentation
 - `documentation/EXECUTIVE_SUMMARY_68_SCENARIOS.md` - Executive summary of optimization results

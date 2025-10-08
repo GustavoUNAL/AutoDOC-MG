@@ -1,0 +1,208 @@
+====================================================================================================
+DETAILED RELAY COORDINATION ANALYSIS REPORT
+====================================================================================================
+Generation date: 2025-10-08 10:23:22
+Project: AutoDOC-MG
+Analyzed file: automation_results.json
+CTI configuration: 0.2 seconds
+Coordination threshold: 80.0%
+Critical TMT threshold: 0.1
+
+EXECUTIVE SUMMARY
+--------------------------------------------------
+• Total scenarios analyzed: 68
+• Total relay pairs: 6,800
+• Coordinated pairs: 0 (0.00%)
+• Uncoordinated pairs: 6,800
+• Total accumulated TMT: 0.0000 seconds
+• Scenarios with coordination ≥80.0%: 0 (0.0%)
+• Critical scenarios (TMT ≤ 0.1): 68 (100.0%)
+
+DETAILED STATISTICAL ANALYSIS
+--------------------------------------------------
+Coordination:
+  • Average: 0.00% ± 0.00%
+  • Median: 0.00%
+  • Range: 0.00%
+  • Minimum: 0.00%
+  • Maximum: 0.00%
+
+TMT (Total Miscoordination Time):
+  • Average: 0.0000 seconds
+  • Standard deviation: 0.0000 seconds
+  • Range: 0.0000 seconds
+  • Minimum: 0.0000 seconds
+  • Maximum: 0.0000 seconds
+
+DETAILED ANALYSIS BY SCENARIO
+--------------------------------------------------
+Scenario                  |  Pairs | Coord. | Uncoord. | % Coord. |        TMT |  Quality | Max Uncoord.
+----------------------------------------------------------------------------------------------------
+scenario_1                |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_10               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_11               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_12               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_13               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_14               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_15               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_16               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_17               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_18               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_19               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_2                |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_20               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_21               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_22               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_23               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_24               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_25               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_26               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_27               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_28               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_29               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_3                |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_30               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_31               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_32               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_33               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_34               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_35               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_36               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_37               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_38               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_39               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_4                |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_40               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_41               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_42               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_43               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_44               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_45               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_46               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_47               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_48               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_49               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_5                |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_50               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_51               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_52               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_53               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_54               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_55               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_56               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_57               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_58               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_59               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_6                |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_60               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_61               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_62               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_63               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_64               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_65               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_66               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_67               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_68               |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_7                |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_8                |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+scenario_9                |    100 |      0 |      100 |     0.0% |    0.0000 | 🔴POOR    |       0.000
+----------------------------------------------------------------------------------------------------
+
+PROBLEMATIC SCENARIOS IDENTIFICATION
+--------------------------------------------------
+Top 5 scenarios with highest TMT penalty:
+  1. scenario_1: TMT = 0.0000s, Coordination = 0.0%
+  2. scenario_10: TMT = 0.0000s, Coordination = 0.0%
+  3. scenario_11: TMT = 0.0000s, Coordination = 0.0%
+  4. scenario_12: TMT = 0.0000s, Coordination = 0.0%
+  5. scenario_13: TMT = 0.0000s, Coordination = 0.0%
+
+Scenarios with coordination < 50% (68 scenarios):
+  • scenario_1: 0.0% coordination, TMT = 0.0000s
+  • scenario_10: 0.0% coordination, TMT = 0.0000s
+  • scenario_11: 0.0% coordination, TMT = 0.0000s
+  • scenario_12: 0.0% coordination, TMT = 0.0000s
+  • scenario_13: 0.0% coordination, TMT = 0.0000s
+  • scenario_14: 0.0% coordination, TMT = 0.0000s
+  • scenario_15: 0.0% coordination, TMT = 0.0000s
+  • scenario_16: 0.0% coordination, TMT = 0.0000s
+  • scenario_17: 0.0% coordination, TMT = 0.0000s
+  • scenario_18: 0.0% coordination, TMT = 0.0000s
+  • scenario_19: 0.0% coordination, TMT = 0.0000s
+  • scenario_2: 0.0% coordination, TMT = 0.0000s
+  • scenario_20: 0.0% coordination, TMT = 0.0000s
+  • scenario_21: 0.0% coordination, TMT = 0.0000s
+  • scenario_22: 0.0% coordination, TMT = 0.0000s
+  • scenario_23: 0.0% coordination, TMT = 0.0000s
+  • scenario_24: 0.0% coordination, TMT = 0.0000s
+  • scenario_25: 0.0% coordination, TMT = 0.0000s
+  • scenario_26: 0.0% coordination, TMT = 0.0000s
+  • scenario_27: 0.0% coordination, TMT = 0.0000s
+  • scenario_28: 0.0% coordination, TMT = 0.0000s
+  • scenario_29: 0.0% coordination, TMT = 0.0000s
+  • scenario_3: 0.0% coordination, TMT = 0.0000s
+  • scenario_30: 0.0% coordination, TMT = 0.0000s
+  • scenario_31: 0.0% coordination, TMT = 0.0000s
+  • scenario_32: 0.0% coordination, TMT = 0.0000s
+  • scenario_33: 0.0% coordination, TMT = 0.0000s
+  • scenario_34: 0.0% coordination, TMT = 0.0000s
+  • scenario_35: 0.0% coordination, TMT = 0.0000s
+  • scenario_36: 0.0% coordination, TMT = 0.0000s
+  • scenario_37: 0.0% coordination, TMT = 0.0000s
+  • scenario_38: 0.0% coordination, TMT = 0.0000s
+  • scenario_39: 0.0% coordination, TMT = 0.0000s
+  • scenario_4: 0.0% coordination, TMT = 0.0000s
+  • scenario_40: 0.0% coordination, TMT = 0.0000s
+  • scenario_41: 0.0% coordination, TMT = 0.0000s
+  • scenario_42: 0.0% coordination, TMT = 0.0000s
+  • scenario_43: 0.0% coordination, TMT = 0.0000s
+  • scenario_44: 0.0% coordination, TMT = 0.0000s
+  • scenario_45: 0.0% coordination, TMT = 0.0000s
+  • scenario_46: 0.0% coordination, TMT = 0.0000s
+  • scenario_47: 0.0% coordination, TMT = 0.0000s
+  • scenario_48: 0.0% coordination, TMT = 0.0000s
+  • scenario_49: 0.0% coordination, TMT = 0.0000s
+  • scenario_5: 0.0% coordination, TMT = 0.0000s
+  • scenario_50: 0.0% coordination, TMT = 0.0000s
+  • scenario_51: 0.0% coordination, TMT = 0.0000s
+  • scenario_52: 0.0% coordination, TMT = 0.0000s
+  • scenario_53: 0.0% coordination, TMT = 0.0000s
+  • scenario_54: 0.0% coordination, TMT = 0.0000s
+  • scenario_55: 0.0% coordination, TMT = 0.0000s
+  • scenario_56: 0.0% coordination, TMT = 0.0000s
+  • scenario_57: 0.0% coordination, TMT = 0.0000s
+  • scenario_58: 0.0% coordination, TMT = 0.0000s
+  • scenario_59: 0.0% coordination, TMT = 0.0000s
+  • scenario_6: 0.0% coordination, TMT = 0.0000s
+  • scenario_60: 0.0% coordination, TMT = 0.0000s
+  • scenario_61: 0.0% coordination, TMT = 0.0000s
+  • scenario_62: 0.0% coordination, TMT = 0.0000s
+  • scenario_63: 0.0% coordination, TMT = 0.0000s
+  • scenario_64: 0.0% coordination, TMT = 0.0000s
+  • scenario_65: 0.0% coordination, TMT = 0.0000s
+  • scenario_66: 0.0% coordination, TMT = 0.0000s
+  • scenario_67: 0.0% coordination, TMT = 0.0000s
+  • scenario_68: 0.0% coordination, TMT = 0.0000s
+  • scenario_7: 0.0% coordination, TMT = 0.0000s
+  • scenario_8: 0.0% coordination, TMT = 0.0000s
+  • scenario_9: 0.0% coordination, TMT = 0.0000s
+
+TECHNICAL RECOMMENDATIONS
+--------------------------------------------------
+1. 🚨 CRITICAL: System performance is unacceptable. Emergency intervention required.
+2. 🔴 High number of critical scenarios (100.0%). Review coordination times.
+3. 🔴 URGENT: Average coordination (0.0%) is well below recommended threshold. Review relay configurations.
+4. 🔴 CRITICAL: High percentage of critical scenarios (100.0%). Adjust coordination times immediately.
+
+TECHNICAL INFORMATION
+--------------------------------------------------
+• CTI (Coordination Time Interval): 0.2 seconds
+• Acceptable coordination threshold: 80.0%
+• Critical TMT threshold: 0.1
+• Total processed pairs: 6,800
+• Coordination success rate: 0.00%
+• System efficiency: 0.0%
+
+====================================================================================================
+END OF REPORT
+====================================================================================================
