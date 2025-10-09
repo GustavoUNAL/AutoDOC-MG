@@ -1,0 +1,420 @@
+
+=== REPORTE DE COMPARACIÓN TMT ANTES Y DESPUÉS DE OPTIMIZACIÓN ===
+
+Fecha: 2025-10-08 18:06:26
+
+ESTADÍSTICAS GENERALES:
+- Total de escenarios analizados: 68
+- Escenarios con mejora: 0
+- Mejora promedio: -inf%
+- Mejora máxima: -561.08%
+
+RESULTADOS POR ESCENARIO:
+
+Escenario: scenario_1
+  TMT Antes: 0.2975s
+  TMT Después: 2.4632s
+  Mejora: -727.98%
+  Casos analizados: 100
+
+Escenario: scenario_2
+  TMT Antes: 0.3563s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_3
+  TMT Antes: 0.3492s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_4
+  TMT Antes: 0.3259s
+  TMT Después: 2.1678s
+  Mejora: -565.16%
+  Casos analizados: 100
+
+Escenario: scenario_5
+  TMT Antes: 0.4736s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_6
+  TMT Antes: 0.3952s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_7
+  TMT Antes: 2.2656s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_8
+  TMT Antes: 0.3562s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_9
+  TMT Antes: 0.4236s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_10
+  TMT Antes: 0.3827s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_11
+  TMT Antes: 0.4070s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_12
+  TMT Antes: 0.3526s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_13
+  TMT Antes: 0.3836s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_14
+  TMT Antes: 0.9289s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_15
+  TMT Antes: 0.6342s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_16
+  TMT Antes: 0.4671s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_17
+  TMT Antes: 0.4724s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_18
+  TMT Antes: 0.3429s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_19
+  TMT Antes: 0.3591s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_20
+  TMT Antes: 0.4829s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_21
+  TMT Antes: 0.2956s
+  TMT Después: 2.8004s
+  Mejora: -847.25%
+  Casos analizados: 100
+
+Escenario: scenario_22
+  TMT Antes: 0.2970s
+  TMT Después: 3.0661s
+  Mejora: -932.26%
+  Casos analizados: 100
+
+Escenario: scenario_23
+  TMT Antes: 0.3018s
+  TMT Después: 3.3469s
+  Mejora: -1008.89%
+  Casos analizados: 100
+
+Escenario: scenario_24
+  TMT Antes: 0.3053s
+  TMT Después: 3.5379s
+  Mejora: -1058.71%
+  Casos analizados: 100
+
+Escenario: scenario_25
+  TMT Antes: 0.3019s
+  TMT Después: 2.6900s
+  Mejora: -790.93%
+  Casos analizados: 100
+
+Escenario: scenario_26
+  TMT Antes: 0.2991s
+  TMT Después: 3.0250s
+  Mejora: -911.49%
+  Casos analizados: 100
+
+Escenario: scenario_27
+  TMT Antes: 0.2973s
+  TMT Después: 3.2569s
+  Mejora: -995.59%
+  Casos analizados: 100
+
+Escenario: scenario_28
+  TMT Antes: 0.2981s
+  TMT Después: 2.9067s
+  Mejora: -874.93%
+  Casos analizados: 100
+
+Escenario: scenario_29
+  TMT Antes: 0.3037s
+  TMT Después: 2.0077s
+  Mejora: -561.08%
+  Casos analizados: 100
+
+Escenario: scenario_30
+  TMT Antes: 0.3033s
+  TMT Después: 2.9492s
+  Mejora: -872.23%
+  Casos analizados: 100
+
+Escenario: scenario_31
+  TMT Antes: 0.2994s
+  TMT Después: 2.7102s
+  Mejora: -805.15%
+  Casos analizados: 100
+
+Escenario: scenario_32
+  TMT Antes: 0.2996s
+  TMT Después: 2.7995s
+  Mejora: -834.25%
+  Casos analizados: 100
+
+Escenario: scenario_33
+  TMT Antes: 0.3077s
+  TMT Después: 2.8510s
+  Mejora: -826.41%
+  Casos analizados: 100
+
+Escenario: scenario_34
+  TMT Antes: 0.3034s
+  TMT Después: 2.9968s
+  Mejora: -887.80%
+  Casos analizados: 100
+
+Escenario: scenario_35
+  TMT Antes: 0.3060s
+  TMT Después: 3.1495s
+  Mejora: -929.36%
+  Casos analizados: 100
+
+Escenario: scenario_36
+  TMT Antes: 0.3022s
+  TMT Después: 3.0100s
+  Mejora: -896.05%
+  Casos analizados: 100
+
+Escenario: scenario_37
+  TMT Antes: 0.3689s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_38
+  TMT Antes: 0.3582s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_39
+  TMT Antes: 0.3875s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_40
+  TMT Antes: 0.3461s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_41
+  TMT Antes: 0.3800s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_42
+  TMT Antes: 0.4092s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_43
+  TMT Antes: 0.3409s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_44
+  TMT Antes: 0.3193s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_45
+  TMT Antes: 0.4605s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_46
+  TMT Antes: 0.4229s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_47
+  TMT Antes: 0.4015s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_48
+  TMT Antes: 0.3835s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_49
+  TMT Antes: 0.3405s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_50
+  TMT Antes: 0.3472s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_51
+  TMT Antes: 0.3812s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_52
+  TMT Antes: 0.7676s
+  TMT Después: infs
+  Mejora: -inf%
+  Casos analizados: 100
+
+Escenario: scenario_53
+  TMT Antes: 0.3191s
+  TMT Después: 2.5162s
+  Mejora: -688.42%
+  Casos analizados: 100
+
+Escenario: scenario_54
+  TMT Antes: 0.3232s
+  TMT Después: 2.7280s
+  Mejora: -743.96%
+  Casos analizados: 100
+
+Escenario: scenario_55
+  TMT Antes: 0.3316s
+  TMT Después: 2.9860s
+  Mejora: -800.56%
+  Casos analizados: 100
+
+Escenario: scenario_56
+  TMT Antes: 0.3365s
+  TMT Después: 3.5034s
+  Mejora: -941.22%
+  Casos analizados: 100
+
+Escenario: scenario_57
+  TMT Antes: 0.3239s
+  TMT Después: 2.9329s
+  Mejora: -805.64%
+  Casos analizados: 100
+
+Escenario: scenario_58
+  TMT Antes: 0.3247s
+  TMT Después: 2.6646s
+  Mejora: -720.55%
+  Casos analizados: 100
+
+Escenario: scenario_59
+  TMT Antes: 0.3281s
+  TMT Después: 3.0121s
+  Mejora: -818.14%
+  Casos analizados: 100
+
+Escenario: scenario_60
+  TMT Antes: 0.3302s
+  TMT Después: 2.6268s
+  Mejora: -695.61%
+  Casos analizados: 100
+
+Escenario: scenario_61
+  TMT Antes: 0.3179s
+  TMT Después: 2.4569s
+  Mejora: -672.83%
+  Casos analizados: 100
+
+Escenario: scenario_62
+  TMT Antes: 0.3215s
+  TMT Después: 2.5480s
+  Mejora: -692.55%
+  Casos analizados: 100
+
+Escenario: scenario_63
+  TMT Antes: 0.3182s
+  TMT Después: 3.5300s
+  Mejora: -1009.29%
+  Casos analizados: 100
+
+Escenario: scenario_64
+  TMT Antes: 0.3221s
+  TMT Después: 2.5206s
+  Mejora: -682.56%
+  Casos analizados: 100
+
+Escenario: scenario_65
+  TMT Antes: 0.3420s
+  TMT Después: 3.4350s
+  Mejora: -904.39%
+  Casos analizados: 100
+
+Escenario: scenario_66
+  TMT Antes: 0.3367s
+  TMT Después: 3.4453s
+  Mejora: -923.22%
+  Casos analizados: 100
+
+Escenario: scenario_67
+  TMT Antes: 0.3392s
+  TMT Después: 3.6207s
+  Mejora: -967.36%
+  Casos analizados: 100
+
+Escenario: scenario_68
+  TMT Antes: 0.3339s
+  TMT Después: 3.2988s
+  Mejora: -888.11%
+  Casos analizados: 100

@@ -1,0 +1,62 @@
+ANÁLISIS TMT: ¿POR QUÉ DEBERÍA SER NEGATIVO?
+================================================================================
+Generado: 2025-10-08 17:24:46
+
+CONCEPTO DE TMT:
+----------------------------------------
+TMT = Total Miscoordination Time (Tiempo Total de Descoordinación)
+- TMT BAJO = BUENA coordinación
+- TMT ALTO = MALA coordinación
+- TMT = 0 = PERFECTA coordinación (ideal)
+- TMT NEGATIVO = IMPOSIBLE (no puede haber tiempo negativo)
+
+ACLARACIÓN IMPORTANTE:
+----------------------------------------
+El TMT NO PUEDE SER NEGATIVO porque representa tiempo real.
+Lo que SÍ puede ser negativo es la MEJORA del TMT:
+- Mejora TMT Positiva: TMT disminuyó (mejor coordinación)
+- Mejora TMT Negativa: TMT aumentó (peor coordinación)
+
+ESTADÍSTICAS ACTUALES:
+----------------------------------------
+Total escenarios: 68
+Escenarios mejorados: 8
+Escenarios empeorados: 60
+Tasa de éxito: 11.8%
+TMT promedio después: 18.165 segundos
+TMT mínimo después: 13.012 segundos
+TMT máximo después: 23.330 segundos
+
+TOP 10 MEJORES TMT DESPUÉS DE OPTIMIZACIÓN:
+----------------------------------------
+ 1. scenario_47: 13.012s (Antes: 14.724s, Mejora: +1.712s)
+ 2. scenario_13: 13.340s (Antes: 13.834s, Mejora: +0.495s)
+ 3. scenario_8: 14.038s (Antes: 13.723s, Mejora: -0.314s)
+ 4. scenario_45: 14.384s (Antes: 15.738s, Mejora: +1.353s)
+ 5. scenario_9: 14.424s (Antes: 13.889s, Mejora: -0.535s)
+ 6. scenario_65: 14.515s (Antes: 14.815s, Mejora: +0.300s)
+ 7. scenario_15: 14.570s (Antes: 20.395s, Mejora: +5.825s)
+ 8. scenario_34: 14.655s (Antes: 15.668s, Mejora: +1.013s)
+ 9. scenario_11: 14.743s (Antes: 14.050s, Mejora: -0.693s)
+10. scenario_38: 14.844s (Antes: 14.109s, Mejora: -0.735s)
+
+TOP 10 PEORES TMT DESPUÉS DE OPTIMIZACIÓN:
+----------------------------------------
+ 1. scenario_56: 20.756s (Antes: 14.987s, Cambio: -5.769s)
+ 2. scenario_16: 20.813s (Antes: 16.080s, Cambio: -4.733s)
+ 3. scenario_58: 20.934s (Antes: 15.259s, Cambio: -5.674s)
+ 4. scenario_61: 21.345s (Antes: 15.426s, Cambio: -5.919s)
+ 5. scenario_51: 21.542s (Antes: 13.790s, Cambio: -7.751s)
+ 6. scenario_53: 21.668s (Antes: 15.508s, Cambio: -6.160s)
+ 7. scenario_55: 21.855s (Antes: 15.091s, Cambio: -6.764s)
+ 8. scenario_36: 21.943s (Antes: 15.695s, Cambio: -6.248s)
+ 9. scenario_68: 22.629s (Antes: 15.043s, Cambio: -7.586s)
+10. scenario_32: 23.330s (Antes: 15.805s, Cambio: -7.526s)
+
+RECOMENDACIONES:
+----------------------------------------
+1. El TMT NO puede ser negativo, pero SÍ debe ser LO MÁS BAJO POSIBLE
+2. Objetivo: TMT < 15 segundos (buena coordinación)
+3. Problema: TMT > 20 segundos (mala coordinación)
+4. Aumentar generaciones GA de 1,000 a 5,000-10,000
+5. Investigar escenarios con TMT muy alto después de optimización

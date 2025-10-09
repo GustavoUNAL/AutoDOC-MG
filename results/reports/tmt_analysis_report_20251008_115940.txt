@@ -1,0 +1,138 @@
+
+TMT ANALYSIS REPORT - GA OPTIMIZATION RESULTS
+================================================================================
+Generated: 2025-10-08 11:59:40
+Total Scenarios Analyzed: 68
+
+EXECUTIVE SUMMARY
+========================================
+• Scenarios Improved: 8/68 (11.8%)
+• Scenarios Degraded: 60/68 (88.2%)
+• Scenarios Unchanged: 0/68 (0.0%)
+• Total TMT Before: 1026.096500 seconds
+• Total TMT After: 1235.210509 seconds
+• Net TMT Change: -209.114009 seconds (-20.4%)
+• Average Improvement: -21.45%
+
+TOP 10 BEST PERFORMING SCENARIOS
+========================================
+ 1. scenario_14  | TMT: 26.98s → 16.11s | Improvement: +10.87s (+40.3%) | Coord: 12.0% → 66.0%
+ 2. scenario_15  | TMT: 20.39s → 14.57s | Improvement: +5.83s (+28.6%) | Coord: 12.0% → 67.0%
+ 3. scenario_47  | TMT: 14.72s → 13.01s | Improvement: +1.71s (+11.6%) | Coord: 10.0% → 69.0%
+ 4. scenario_45  | TMT: 15.74s → 14.38s | Improvement: +1.35s (+8.6%) | Coord: 11.0% → 69.0%
+ 5. scenario_5   | TMT: 16.88s → 15.58s | Improvement: +1.31s (+7.7%) | Coord: 11.0% → 70.0%
+ 6. scenario_34  | TMT: 15.67s → 14.65s | Improvement: +1.01s (+6.5%) | Coord: 11.0% → 69.0%
+ 7. scenario_13  | TMT: 13.83s → 13.34s | Improvement: +0.49s (+3.6%) | Coord: 10.0% → 76.0%
+ 8. scenario_65  | TMT: 14.82s → 14.51s | Improvement: +0.30s (+2.0%) | Coord: 15.0% → 75.0%
+ 9. scenario_8   | TMT: 13.72s → 14.04s | Improvement: -0.31s (-2.3%) | Coord: 10.0% → 66.0%
+10. scenario_9   | TMT: 13.89s → 14.42s | Improvement: -0.54s (-3.9%) | Coord: 12.0% → 67.0%
+
+BOTTOM 10 WORST PERFORMING SCENARIOS
+========================================
+ 1. scenario_61  | TMT: 15.43s → 21.34s | Change: -5.92s (-38.4%) | Coord: 11.0% → 72.0%
+ 2. scenario_37  | TMT: 14.38s → 20.45s | Change: -6.07s (-42.2%) | Coord: 8.0% → 71.0%
+ 3. scenario_53  | TMT: 15.51s → 21.67s | Change: -6.16s (-39.7%) | Coord: 9.0% → 66.0%
+ 4. scenario_10  | TMT: 13.61s → 19.81s | Change: -6.20s (-45.5%) | Coord: 12.0% → 72.0%
+ 5. scenario_36  | TMT: 15.70s → 21.94s | Change: -6.25s (-39.8%) | Coord: 10.0% → 71.0%
+ 6. scenario_3   | TMT: 13.54s → 19.94s | Change: -6.39s (-47.2%) | Coord: 11.0% → 65.0%
+ 7. scenario_55  | TMT: 15.09s → 21.85s | Change: -6.76s (-44.8%) | Coord: 15.0% → 65.0%
+ 8. scenario_32  | TMT: 15.80s → 23.33s | Change: -7.53s (-47.6%) | Coord: 11.0% → 69.0%
+ 9. scenario_68  | TMT: 15.04s → 22.63s | Change: -7.59s (-50.4%) | Coord: 16.0% → 65.0%
+10. scenario_51  | TMT: 13.79s → 21.54s | Change: -7.75s (-56.2%) | Coord: 12.0% → 73.0%
+
+DETAILED SCENARIO RESULTS
+========================================
+Scenario_ID     | TMT_Before | TMT_After  | Improvement | Improve% | Coord%_Before | Coord%_After | Relays
+-----------------------------------------------------------------------------------------------
+scenario_14     |     26.98 |     16.11 |      10.87 |    40.3% |         12.0% |         66.0% |     73
+scenario_15     |     20.39 |     14.57 |       5.83 |    28.6% |         12.0% |         67.0% |     73
+scenario_47     |     14.72 |     13.01 |       1.71 |    11.6% |         10.0% |         69.0% |     73
+scenario_45     |     15.74 |     14.38 |       1.35 |     8.6% |         11.0% |         69.0% |     73
+scenario_5      |     16.88 |     15.58 |       1.31 |     7.7% |         11.0% |         70.0% |     73
+scenario_34     |     15.67 |     14.65 |       1.01 |     6.5% |         11.0% |         69.0% |     74
+scenario_13     |     13.83 |     13.34 |       0.49 |     3.6% |         10.0% |         76.0% |     73
+scenario_65     |     14.82 |     14.51 |       0.30 |     2.0% |         15.0% |         75.0% |     74
+scenario_8      |     13.72 |     14.04 |      -0.31 |    -2.3% |         10.0% |         66.0% |     73
+scenario_9      |     13.89 |     14.42 |      -0.54 |    -3.9% |         12.0% |         67.0% |     73
+scenario_28     |     15.84 |     16.48 |      -0.64 |    -4.0% |         12.0% |         69.0% |     74
+scenario_11     |     14.05 |     14.74 |      -0.69 |    -4.9% |         10.0% |         75.0% |     73
+scenario_38     |     14.11 |     14.84 |      -0.73 |    -5.2% |          6.0% |         70.0% |     73
+scenario_31     |     15.87 |     16.88 |      -1.01 |    -6.4% |         11.0% |         67.0% |     74
+scenario_44     |     13.90 |     15.03 |      -1.13 |    -8.1% |          8.0% |         67.0% |     73
+scenario_62     |     15.33 |     16.59 |      -1.26 |    -8.2% |         14.0% |         79.0% |     74
+scenario_39     |     13.68 |     15.17 |      -1.48 |   -10.8% |         11.0% |         67.0% |     73
+scenario_59     |     15.16 |     16.70 |      -1.54 |   -10.1% |         12.0% |         68.0% |     74
+scenario_50     |     14.02 |     15.59 |      -1.56 |   -11.1% |          7.0% |         69.0% |     73
+scenario_27     |     15.88 |     17.65 |      -1.77 |   -11.2% |         13.0% |         73.0% |     74
+scenario_46     |     14.73 |     16.68 |      -1.95 |   -13.2% |         10.0% |         73.0% |     73
+scenario_2      |     13.69 |     15.95 |      -2.25 |   -16.5% |         10.0% |         72.0% |     73
+scenario_7      |     13.51 |     15.86 |      -2.35 |   -17.4% |         12.0% |         74.0% |     73
+scenario_43     |     13.73 |     16.21 |      -2.48 |   -18.0% |         11.0% |         75.0% |     73
+scenario_48     |     14.27 |     16.82 |      -2.56 |   -17.9% |          8.0% |         69.0% |     73
+scenario_57     |     15.26 |     17.89 |      -2.63 |   -17.2% |         12.0% |         66.0% |     74
+scenario_1      |     15.85 |     18.69 |      -2.83 |   -17.9% |         12.0% |         64.0% |     74
+scenario_30     |     15.69 |     18.61 |      -2.92 |   -18.6% |          9.0% |         67.0% |     74
+scenario_52     |     13.85 |     16.98 |      -3.13 |   -22.6% |         11.0% |         71.0% |     73
+scenario_42     |     13.41 |     16.94 |      -3.53 |   -26.3% |         14.0% |         65.0% |     73
+scenario_41     |     13.37 |     16.94 |      -3.57 |   -26.7% |         12.0% |         67.0% |     73
+scenario_35     |     15.57 |     19.17 |      -3.60 |   -23.1% |         11.0% |         66.0% |     74
+scenario_29     |     15.73 |     19.39 |      -3.66 |   -23.3% |         15.0% |         63.0% |     74
+scenario_23     |     15.69 |     19.41 |      -3.72 |   -23.7% |         10.0% |         66.0% |     74
+scenario_63     |     15.48 |     19.21 |      -3.73 |   -24.1% |         15.0% |         66.0% |     74
+scenario_54     |     15.37 |     19.19 |      -3.82 |   -24.8% |         13.0% |         62.0% |     74
+scenario_22     |     15.89 |     19.77 |      -3.87 |   -24.4% |         12.0% |         70.0% |     74
+scenario_67     |     14.90 |     18.77 |      -3.87 |   -26.0% |         14.0% |         63.0% |     74
+scenario_12     |     13.87 |     17.80 |      -3.93 |   -28.3% |          9.0% |         71.0% |     73
+scenario_20     |     13.98 |     17.98 |      -4.00 |   -28.6% |          9.0% |         64.0% |     73
+scenario_19     |     13.82 |     17.82 |      -4.00 |   -29.0% |         11.0% |         66.0% |     73
+scenario_24     |     15.59 |     19.96 |      -4.37 |   -28.0% |         15.0% |         71.0% |     74
+scenario_26     |     15.81 |     20.20 |      -4.39 |   -27.8% |          7.0% |         74.0% |     74
+scenario_60     |     15.06 |     19.55 |      -4.49 |   -29.8% |         12.0% |         60.0% |     74
+scenario_18     |     14.11 |     18.71 |      -4.60 |   -32.6% |          8.0% |         73.0% |     73
+scenario_17     |     14.00 |     18.63 |      -4.63 |   -33.1% |         11.0% |         72.0% |     73
+scenario_21     |     15.99 |     20.68 |      -4.69 |   -29.3% |         12.0% |         63.0% |     74
+scenario_16     |     16.08 |     20.81 |      -4.73 |   -29.4% |          9.0% |         68.0% |     73
+scenario_4      |     15.23 |     19.99 |      -4.76 |   -31.3% |         13.0% |         72.0% |     74
+scenario_40     |     13.57 |     18.34 |      -4.77 |   -35.2% |         11.0% |         69.0% |     73
+scenario_25     |     15.70 |     20.59 |      -4.89 |   -31.2% |         12.0% |         62.0% |     74
+scenario_64     |     15.36 |     20.34 |      -4.98 |   -32.4% |         11.0% |         69.0% |     74
+scenario_6      |     14.81 |     19.81 |      -5.00 |   -33.7% |         11.0% |         73.0% |     73
+scenario_33     |     15.54 |     20.70 |      -5.16 |   -33.2% |         12.0% |         70.0% |     74
+scenario_66     |     14.94 |     20.56 |      -5.62 |   -37.6% |         14.0% |         73.0% |     74
+scenario_58     |     15.26 |     20.93 |      -5.67 |   -37.2% |         12.0% |         73.0% |     74
+scenario_56     |     14.99 |     20.76 |      -5.77 |   -38.5% |         12.0% |         71.0% |     74
+scenario_49     |     14.00 |     19.77 |      -5.78 |   -41.3% |          9.0% |         67.0% |     73
+scenario_61     |     15.43 |     21.34 |      -5.92 |   -38.4% |         11.0% |         72.0% |     74
+scenario_37     |     14.38 |     20.45 |      -6.07 |   -42.2% |          8.0% |         71.0% |     73
+scenario_53     |     15.51 |     21.67 |      -6.16 |   -39.7% |          9.0% |         66.0% |     74
+scenario_10     |     13.61 |     19.81 |      -6.20 |   -45.5% |         12.0% |         72.0% |     73
+scenario_36     |     15.70 |     21.94 |      -6.25 |   -39.8% |         10.0% |         71.0% |     74
+scenario_3      |     13.54 |     19.94 |      -6.39 |   -47.2% |         11.0% |         65.0% |     73
+scenario_55     |     15.09 |     21.85 |      -6.76 |   -44.8% |         15.0% |         65.0% |     74
+scenario_32     |     15.80 |     23.33 |      -7.53 |   -47.6% |         11.0% |         69.0% |     74
+scenario_68     |     15.04 |     22.63 |      -7.59 |   -50.4% |         16.0% |         65.0% |     74
+scenario_51     |     13.79 |     21.54 |      -7.75 |   -56.2% |         12.0% |         73.0% |     73
+
+RECOMMENDATIONS
+========================================
+1. GA Optimization Performance:
+   • Only 8 out of 68 scenarios showed improvement
+   • Consider increasing GA generations from 1,000 to 5,000-10,000 for better convergence
+   • Investigate why scenarios 14 and 15 performed exceptionally well
+
+2. Scenario-Specific Actions:
+   • Focus optimization efforts on the 60 scenarios that degraded
+   • Analyze the successful optimization patterns in top-performing scenarios
+   • Consider different GA parameters for different scenario types
+
+3. Data Quality:
+   • Verify input data quality for scenarios with significant degradation
+   • Check for potential data inconsistencies or missing constraints
+
+4. Next Steps:
+   • Run optimization with higher generation limits
+   • Implement scenario-specific parameter tuning
+   • Validate results with domain experts
+
+================================================================================
+End of Report

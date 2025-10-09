@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMT Analysis Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        .chart-container {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        .summary {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-box {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #3498db;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 14px;
+        }
+        .positive { border-left-color: #2ecc71; }
+        .positive .stat-number { color: #2ecc71; }
+        .negative { border-left-color: #e74c3c; }
+        .negative .stat-number { color: #e74c3c; }
+        .neutral { border-left-color: #f39c12; }
+        .neutral .stat-number { color: #f39c12; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 TMT Analysis Visualization</h1>
+        <p style="text-align: center; color: #666;">GA Optimization Results - 68 Scenarios</p>
+        
+        <div class="summary">
+            <h2>📈 Summary Statistics</h2>
+            <div class="stats">
+                <div class="stat-box positive">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Scenarios Improved</div>
+                </div>
+                <div class="stat-box negative">
+                    <div class="stat-number">60</div>
+                    <div class="stat-label">Scenarios Degraded</div>
+                </div>
+                <div class="stat-box neutral">
+                    <div class="stat-number">-209.1s</div>
+                    <div class="stat-label">Total TMT Change</div>
+                </div>
+                <div class="stat-box neutral">
+                    <div class="stat-number">-3.1%</div>
+                    <div class="stat-label">Average Change</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h2>🎯 TMT Comparison: Before vs After</h2>
+            <canvas id="tmtComparisonChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2>📊 TMT Improvement Ranking</h2>
+            <canvas id="improvementChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2>🔄 Coordination Percentage Analysis</h2>
+            <canvas id="coordinationChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2>🏆 Top 10 Best Performing Scenarios</h2>
+            <canvas id="topScenariosChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2>📉 Bottom 10 Worst Performing Scenarios</h2>
+            <canvas id="bottomScenariosChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // Data
+        const scenarioIds = ["scenario_14", "scenario_15", "scenario_47", "scenario_45", "scenario_5", "scenario_34", "scenario_13", "scenario_65", "scenario_8", "scenario_9", "scenario_28", "scenario_11", "scenario_38", "scenario_31", "scenario_44", "scenario_62", "scenario_39", "scenario_59", "scenario_50", "scenario_27", "scenario_46", "scenario_2", "scenario_7", "scenario_43", "scenario_48", "scenario_57", "scenario_1", "scenario_30", "scenario_52", "scenario_42", "scenario_41", "scenario_35", "scenario_29", "scenario_23", "scenario_63", "scenario_54", "scenario_22", "scenario_67", "scenario_12", "scenario_20", "scenario_19", "scenario_24", "scenario_26", "scenario_60", "scenario_18", "scenario_17", "scenario_21", "scenario_16", "scenario_4", "scenario_40", "scenario_25", "scenario_64", "scenario_6", "scenario_33", "scenario_66", "scenario_58", "scenario_56", "scenario_49", "scenario_61", "scenario_37", "scenario_53", "scenario_10", "scenario_36", "scenario_3", "scenario_55", "scenario_32", "scenario_68", "scenario_51"];
+        const tmtBefore = [26.98, 20.3946, 14.7238, 15.7375, 16.8832, 15.668, 13.8344, 14.8151, 13.7231, 13.8887, 15.8432, 14.0504, 14.1091, 15.8668, 13.8963, 15.3309, 13.684, 15.1619, 14.0232, 15.8769, 14.7336, 13.6949, 13.5146, 13.7318, 14.2652, 15.2631, 15.8543, 15.6882, 13.849, 13.4124, 13.3719, 15.5672, 15.7265, 15.6903, 15.4762, 15.3747, 15.895, 14.898, 13.8727, 13.9789, 13.8185, 15.5895, 15.8085, 15.0577, 14.1055, 13.9985, 15.9922, 16.0796, 15.2305, 13.5717, 15.6964, 15.3634, 14.8113, 15.541, 14.9448, 15.2593, 14.9869, 13.9959, 15.4256, 14.3807, 15.5084, 13.612, 15.6951, 13.5446, 15.0913, 15.8046, 15.0429, 13.7905];
+        const tmtAfter = [16.11061, 14.569519, 13.011554, 14.384335, 15.576896, 14.6547, 13.339896, 14.514785, 14.037587, 14.423927, 16.482043, 14.742926, 14.843791, 16.875518, 15.025118, 16.589864, 15.166776, 16.699455, 15.585703, 17.646384, 16.679856, 15.94847, 15.863958, 16.207289, 16.823479, 17.891879, 18.685726, 18.609293, 16.978132, 16.937791, 16.940597, 19.167761, 19.385723, 19.414939, 19.20787, 19.19327, 19.76619, 18.772275, 17.802597, 17.97557, 17.819917, 19.960226, 20.195657, 19.54855, 18.707713, 18.632657, 20.684592, 20.812964, 19.992534, 18.344391, 20.588029, 20.338749, 19.806417, 20.702617, 20.564142, 20.933777, 20.756118, 19.774166, 21.344916, 20.453563, 21.668177, 19.812123, 21.942887, 19.935995, 21.854974, 23.330249, 22.628625, 21.541732];
+        const improvements = [10.86939, 5.825081, 1.712246, 1.353165, 1.306304, 1.0133, 0.494504, 0.300315, -0.314487, -0.535227, -0.638843, -0.692526, -0.734691, -1.008718, -1.128818, -1.258964, -1.482776, -1.537555, -1.562503, -1.769484, -1.946256, -2.25357, -2.349358, -2.475489, -2.558279, -2.628779, -2.831426, -2.921093, -3.129132, -3.525391, -3.568697, -3.600561, -3.659223, -3.724639, -3.73167, -3.81857, -3.87119, -3.874275, -3.929897, -3.99667, -4.001417, -4.370726, -4.387157, -4.49085, -4.602213, -4.634157, -4.692392, -4.733364, -4.762034, -4.772691, -4.891629, -4.975349, -4.995117, -5.161617, -5.619342, -5.674477, -5.769218, -5.778266, -5.919316, -6.072863, -6.159777, -6.200123, -6.247787, -6.391395, -6.763674, -7.525649, -7.585725, -7.751232];
+        const improvementPcts = [40.29, 28.56, 11.63, 8.6, 7.74, 6.47, 3.57, 2.03, -2.29, -3.85, -4.03, -4.93, -5.21, -6.36, -8.12, -8.21, -10.84, -10.14, -11.14, -11.15, -13.21, -16.46, -17.38, -18.03, -17.93, -17.22, -17.86, -18.62, -22.59, -26.28, -26.69, -23.13, -23.27, -23.74, -24.11, -24.84, -24.35, -26.01, -28.33, -28.59, -28.96, -28.04, -27.75, -29.82, -32.63, -33.1, -29.34, -29.44, -31.27, -35.17, -31.16, -32.38, -33.73, -33.21, -37.6, -37.19, -38.5, -41.29, -38.37, -42.23, -39.72, -45.55, -39.81, -47.19, -44.82, -47.62, -50.43, -56.21];
+        const coordBefore = [12.0, 12.0, 10.0, 11.0, 11.0, 11.0, 10.0, 15.0, 10.0, 12.0, 12.0, 10.0, 6.0, 11.0, 8.0, 14.0, 11.0, 12.0, 7.0, 13.0, 10.0, 10.0, 12.0, 11.0, 8.0, 12.0, 12.0, 9.0, 11.0, 14.0, 12.0, 11.0, 15.0, 10.0, 15.0, 13.0, 12.0, 14.0, 9.0, 9.0, 11.0, 15.0, 7.0, 12.0, 8.0, 11.0, 12.0, 9.0, 13.0, 11.0, 12.0, 11.0, 11.0, 12.0, 14.0, 12.0, 12.0, 9.0, 11.0, 8.0, 9.0, 12.0, 10.0, 11.0, 15.0, 11.0, 16.0, 12.0];
+        const coordAfter = [66.0, 67.0, 69.0, 69.0, 70.0, 69.0, 76.0, 75.0, 66.0, 67.0, 69.0, 75.0, 70.0, 67.0, 67.0, 79.0, 67.0, 68.0, 69.0, 73.0, 73.0, 72.0, 74.0, 75.0, 69.0, 66.0, 64.0, 67.0, 71.0, 65.0, 67.0, 66.0, 63.0, 66.0, 66.0, 62.0, 70.0, 63.0, 71.0, 64.0, 66.0, 71.0, 74.0, 60.0, 73.0, 72.0, 63.0, 68.0, 72.0, 69.0, 62.0, 69.0, 73.0, 70.0, 73.0, 73.0, 71.0, 67.0, 72.0, 71.0, 66.0, 72.0, 71.0, 65.0, 65.0, 69.0, 65.0, 73.0];
+
+        // Chart.js configuration
+        Chart.defaults.font.size = 12;
+        Chart.defaults.color = '#666';
+
+        // 1. TMT Comparison Chart
+        const tmtComparisonCtx = document.getElementById('tmtComparisonChart').getContext('2d');
+        new Chart(tmtComparisonCtx, {
+            type: 'bar',
+            data: {
+                labels: scenarioIds.slice(0, 20), // Show first 20 for readability
+                datasets: [{
+                    label: 'TMT Before',
+                    data: tmtBefore.slice(0, 20),
+                    backgroundColor: 'rgba(231, 76, 60, 0.8)',
+                    borderColor: 'rgba(231, 76, 60, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'TMT After',
+                    data: tmtAfter.slice(0, 20),
+                    backgroundColor: 'rgba(52, 152, 219, 0.8)',
+                    borderColor: 'rgba(52, 152, 219, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'TMT (seconds)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Scenario'
+                        }
+                    }
+                }
+            }
+        });
+
+        // 2. Improvement Chart
+        const improvementCtx = document.getElementById('improvementChart').getContext('2d');
+        new Chart(improvementCtx, {
+            type: 'bar',
+            data: {
+                labels: scenarioIds.slice(0, 30), // Show first 30
+                datasets: [{
+                    label: 'TMT Improvement (seconds)',
+                    data: improvements.slice(0, 30),
+                    backgroundColor: improvements.slice(0, 30).map(val => 
+                        val > 0 ? 'rgba(46, 204, 113, 0.8)' : 'rgba(231, 76, 60, 0.8)'
+                    ),
+                    borderColor: improvements.slice(0, 30).map(val => 
+                        val > 0 ? 'rgba(46, 204, 113, 1)' : 'rgba(231, 76, 60, 1)'
+                    ),
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'TMT Improvement (seconds)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Scenario (Ranked by Performance)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // 3. Coordination Chart
+        const coordinationCtx = document.getElementById('coordinationChart').getContext('2d');
+        new Chart(coordinationCtx, {
+            type: 'line',
+            data: {
+                labels: scenarioIds.slice(0, 25), // Show first 25
+                datasets: [{
+                    label: 'Coordination % Before',
+                    data: coordBefore.slice(0, 25),
+                    borderColor: 'rgba(230, 126, 34, 1)',
+                    backgroundColor: 'rgba(230, 126, 34, 0.2)',
+                    tension: 0.1
+                }, {
+                    label: 'Coordination % After',
+                    data: coordAfter.slice(0, 25),
+                    borderColor: 'rgba(155, 89, 182, 1)',
+                    backgroundColor: 'rgba(155, 89, 182, 0.2)',
+                    tension: 0.1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        title: {
+                            display: true,
+                            text: 'Coordination Percentage (%)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Scenario'
+                        }
+                    }
+                }
+            }
+        });
+
+        // 4. Top 10 Scenarios
+        const top10Ids = scenarioIds.slice(0, 10);
+        const top10Before = tmtBefore.slice(0, 10);
+        const top10After = tmtAfter.slice(0, 10);
+        
+        const topScenariosCtx = document.getElementById('topScenariosChart').getContext('2d');
+        new Chart(topScenariosCtx, {
+            type: 'bar',
+            data: {
+                labels: top10Ids,
+                datasets: [{
+                    label: 'TMT Before',
+                    data: top10Before,
+                    backgroundColor: 'rgba(231, 76, 60, 0.8)',
+                    borderColor: 'rgba(231, 76, 60, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'TMT After',
+                    data: top10After,
+                    backgroundColor: 'rgba(46, 204, 113, 0.8)',
+                    borderColor: 'rgba(46, 204, 113, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'TMT (seconds)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Scenario'
+                        }
+                    }
+                }
+            }
+        });
+
+        // 5. Bottom 10 Scenarios
+        const bottom10Ids = scenarioIds.slice(-10);
+        const bottom10Before = tmtBefore.slice(-10);
+        const bottom10After = tmtAfter.slice(-10);
+        
+        const bottomScenariosCtx = document.getElementById('bottomScenariosChart').getContext('2d');
+        new Chart(bottomScenariosCtx, {
+            type: 'bar',
+            data: {
+                labels: bottom10Ids,
+                datasets: [{
+                    label: 'TMT Before',
+                    data: bottom10Before,
+                    backgroundColor: 'rgba(231, 76, 60, 0.8)',
+                    borderColor: 'rgba(231, 76, 60, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'TMT After',
+                    data: bottom10After,
+                    backgroundColor: 'rgba(231, 76, 60, 0.6)',
+                    borderColor: 'rgba(231, 76, 60, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'TMT (seconds)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Scenario'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

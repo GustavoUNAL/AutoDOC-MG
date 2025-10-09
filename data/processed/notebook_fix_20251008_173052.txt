@@ -1,0 +1,9 @@
+
+# Add this code to fix the figures_dir error in the notebook:
+
+# Define figures directory at the beginning of the notebook
+figures_dir = Path("/Users/gustavo/Documents/Projects/TESIS_UNAL/AutoDOC-MG/results/figures")
+figures_dir.mkdir(parents=True, exist_ok=True)
+
+# Or add this line inside each function that uses figures_dir:
+# figures_dir = Path("/Users/gustavo/Documents/Projects/TESIS_UNAL/AutoDOC-MG/results/figures")

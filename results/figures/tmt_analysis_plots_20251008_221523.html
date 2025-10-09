@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Análisis TMT Correcto - 20251008_221523</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .chart-container { margin: 20px 0; }
+        .summary { background: #f0f8ff; padding: 15px; border-radius: 5px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Análisis TMT Correcto - 20251008_221523</h1>
+    
+    <div class="summary">
+        <h2>📊 Resumen de Resultados</h2>
+        <p><strong>Total escenarios:</strong> 68</p>
+        <p><strong>Escenarios mejorados:</strong> 68</p>
+        <p><strong>Mejora promedio:</strong> 87.04%</p>
+        <p><strong>Coordinación promedio antes:</strong> 12.2%</p>
+        <p><strong>Coordinación promedio después:</strong> 97.3%</p>
+    </div>
+
+    <div class="chart-container">
+        <h2>TMT Antes vs Después</h2>
+        <canvas id="tmtChart" width="800" height="400"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Porcentaje de Mejora</h2>
+        <canvas id="improvementChart" width="800" height="400"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Coordinación Antes vs Después</h2>
+        <canvas id="coordinationChart" width="800" height="400"></canvas>
+    </div>
+
+    <script>
+        // TMT Chart
+        const tmtCtx = document.getElementById('tmtChart').getContext('2d');
+        new Chart(tmtCtx, {
+            type: 'bar',
+            data: {
+                labels: ['scenario_1', 'scenario_2', 'scenario_3', 'scenario_4', 'scenario_5', 'scenario_6', 'scenario_7', 'scenario_8', 'scenario_9', 'scenario_10', 'scenario_11', 'scenario_12', 'scenario_13', 'scenario_14', 'scenario_15', 'scenario_16', 'scenario_17', 'scenario_18', 'scenario_19', 'scenario_20'], // Show first 20 scenarios
+                datasets: [{
+                    label: 'TMT Antes',
+                    data: [-15.8543, -18.9624, -17.8215, -15.2305, -24.9475, -20.9747, -17.7863, -19.0027, -20.1472, -19.2274, -17.8127, -18.1171, -18.4497, -45.6815, -32.1528, -23.6468, -17.7734, -18.3251, -18.0611, -18.2316],
+                    backgroundColor: 'rgba(255, 99, 132, 0.7)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'TMT Después',
+                    data: [-0.0916, -6.9597, -5.8753, -0.3045, -5.1563, -5.2862, -5.6461, -5.8088, -5.3008, -4.7347, -4.3184, -5.5154, -4.917, -4.3458, -6.0274, -3.9048, -2.8916, -4.7175, -3.8991, -5.0542],
+                    backgroundColor: 'rgba(54, 162, 235, 0.7)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        title: {
+                            display: true,
+                            text: 'TMT (segundos)'
+                        }
+                    }
+                },
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'TMT: Antes vs Después de Optimización GA'
+                    }
+                }
+            }
+        });
+
+        // Improvement Chart
+        const improvementCtx = document.getElementById('improvementChart').getContext('2d');
+        new Chart(improvementCtx, {
+            type: 'bar',
+            data: {
+                labels: ['scenario_1', 'scenario_2', 'scenario_3', 'scenario_4', 'scenario_5', 'scenario_6', 'scenario_7', 'scenario_8', 'scenario_9', 'scenario_10', 'scenario_11', 'scenario_12', 'scenario_13', 'scenario_14', 'scenario_15', 'scenario_16', 'scenario_17', 'scenario_18', 'scenario_19', 'scenario_20'],
+                datasets: [{
+                    label: 'Mejora (%)',
+                    data: [99.42, 63.3, 67.03, 98.0, 79.33, 74.8, 68.26, 69.43, 73.69, 75.38, 75.76, 69.56, 73.35, 90.49, 81.25, 83.49, 83.73, 74.26, 78.41, 72.28],
+                    backgroundColor: ["'rgba(57, 249, 0, 0.7)'", "'rgba(129, 194, 0, 0.7)'", "'rgba(121, 200, 0, 0.7)'", "'rgba(59, 247, 0, 0.7)'", "'rgba(97, 218, 0, 0.7)'", "'rgba(106, 212, 0, 0.7)'", "'rgba(119, 202, 0, 0.7)'", "'rgba(117, 204, 0, 0.7)'", "'rgba(108, 210, 0, 0.7)'", "'rgba(105, 213, 0, 0.7)'", "'rgba(104, 213, 0, 0.7)'", "'rgba(116, 204, 0, 0.7)'", "'rgba(109, 210, 0, 0.7)'", "'rgba(75, 235, 0, 0.7)'", "'rgba(93, 221, 0, 0.7)'", "'rgba(89, 225, 0, 0.7)'", "'rgba(88, 225, 0, 0.7)'", "'rgba(107, 211, 0, 0.7)'", "'rgba(99, 217, 0, 0.7)'", "'rgba(111, 208, 0, 0.7)'"],
+                    borderColor: ["'rgba(57, 249, 0, 1)'", "'rgba(129, 194, 0, 1)'", "'rgba(121, 200, 0, 1)'", "'rgba(59, 247, 0, 1)'", "'rgba(97, 218, 0, 1)'", "'rgba(106, 212, 0, 1)'", "'rgba(119, 202, 0, 1)'", "'rgba(117, 204, 0, 1)'", "'rgba(108, 210, 0, 1)'", "'rgba(105, 213, 0, 1)'", "'rgba(104, 213, 0, 1)'", "'rgba(116, 204, 0, 1)'", "'rgba(109, 210, 0, 1)'", "'rgba(75, 235, 0, 1)'", "'rgba(93, 221, 0, 1)'", "'rgba(89, 225, 0, 1)'", "'rgba(88, 225, 0, 1)'", "'rgba(107, 211, 0, 1)'", "'rgba(99, 217, 0, 1)'", "'rgba(111, 208, 0, 1)'"],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Mejora (%)'
+                        }
+                    }
+                },
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Porcentaje de Mejora por Escenario'
+                    }
+                }
+            }
+        });
+
+        // Coordination Chart
+        const coordinationCtx = document.getElementById('coordinationChart').getContext('2d');
+        new Chart(coordinationCtx, {
+            type: 'bar',
+            data: {
+                labels: ['scenario_1', 'scenario_2', 'scenario_3', 'scenario_4', 'scenario_5', 'scenario_6', 'scenario_7', 'scenario_8', 'scenario_9', 'scenario_10', 'scenario_11', 'scenario_12', 'scenario_13', 'scenario_14', 'scenario_15', 'scenario_16', 'scenario_17', 'scenario_18', 'scenario_19', 'scenario_20'],
+                datasets: [{
+                    label: 'Coordinación Antes (%)',
+                    data: [12.0, 12.0, 13.0, 13.0, 13.0, 13.0, 14.0, 12.0, 14.0, 14.0, 12.0, 11.0, 13.0, 14.0, 14.0, 11.0, 13.0, 10.0, 13.0, 11.0],
+                    backgroundColor: 'rgba(255, 159, 64, 0.7)',
+                    borderColor: 'rgba(255, 159, 64, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'Coordinación Después (%)',
+                    data: [94.0, 97.0, 98.0, 93.0, 97.0, 98.0, 98.0, 98.0, 98.0, 97.0, 98.0, 98.0, 90.0, 98.0, 98.0, 91.0, 94.0, 98.0, 98.0, 98.0],
+                    backgroundColor: 'rgba(75, 192, 192, 0.7)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        title: {
+                            display: true,
+                            text: 'Coordinación (%)'
+                        }
+                    }
+                },
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Coordinación: Antes vs Después'
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

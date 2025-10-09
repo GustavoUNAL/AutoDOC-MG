@@ -1,0 +1,559 @@
+{
+  "metadata": {
+    "timestamp": "20251008_174203",
+    "total_scenarios": 68,
+    "improved_scenarios": 0,
+    "degraded_scenarios": 0,
+    "unchanged_scenarios": 68,
+    "success_rate": 0.0,
+    "avg_automation_tmt": -15.089654411764707,
+    "avg_ga_tmt": -15.089654411764707,
+    "avg_improvement": 0.0
+  },
+  "scenario_comparisons": [
+    {
+      "scenario_id": "scenario_1",
+      "automation_tmt": -15.854299999999997,
+      "ga_tmt": -15.854299999999997,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_2",
+      "automation_tmt": -13.694899999999997,
+      "ga_tmt": -13.694899999999997,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_3",
+      "automation_tmt": -13.5446,
+      "ga_tmt": -13.5446,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_4",
+      "automation_tmt": -15.230500000000008,
+      "ga_tmt": -15.230500000000008,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_5",
+      "automation_tmt": -16.8832,
+      "ga_tmt": -16.8832,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_6",
+      "automation_tmt": -14.811300000000003,
+      "ga_tmt": -14.811300000000003,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_7",
+      "automation_tmt": -13.514599999999996,
+      "ga_tmt": -13.514599999999996,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_8",
+      "automation_tmt": -13.723100000000002,
+      "ga_tmt": -13.723100000000002,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_9",
+      "automation_tmt": -13.8887,
+      "ga_tmt": -13.8887,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_10",
+      "automation_tmt": -13.611999999999998,
+      "ga_tmt": -13.611999999999998,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_11",
+      "automation_tmt": -14.050400000000005,
+      "ga_tmt": -14.050400000000005,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_12",
+      "automation_tmt": -13.872699999999993,
+      "ga_tmt": -13.872699999999993,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_13",
+      "automation_tmt": -13.834400000000002,
+      "ga_tmt": -13.834400000000002,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_14",
+      "automation_tmt": -26.980000000000008,
+      "ga_tmt": -26.980000000000008,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_15",
+      "automation_tmt": -20.3946,
+      "ga_tmt": -20.3946,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_16",
+      "automation_tmt": -16.079599999999996,
+      "ga_tmt": -16.079599999999996,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_17",
+      "automation_tmt": -13.9985,
+      "ga_tmt": -13.9985,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_18",
+      "automation_tmt": -14.105500000000001,
+      "ga_tmt": -14.105500000000001,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_19",
+      "automation_tmt": -13.818500000000004,
+      "ga_tmt": -13.818500000000004,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_20",
+      "automation_tmt": -13.978900000000003,
+      "ga_tmt": -13.978900000000003,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_21",
+      "automation_tmt": -15.992200000000002,
+      "ga_tmt": -15.992200000000002,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_22",
+      "automation_tmt": -15.895,
+      "ga_tmt": -15.895,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_23",
+      "automation_tmt": -15.6903,
+      "ga_tmt": -15.6903,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_24",
+      "automation_tmt": -15.589500000000001,
+      "ga_tmt": -15.589500000000001,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_25",
+      "automation_tmt": -15.696399999999999,
+      "ga_tmt": -15.696399999999999,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_26",
+      "automation_tmt": -15.808500000000004,
+      "ga_tmt": -15.808500000000004,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_27",
+      "automation_tmt": -15.876900000000001,
+      "ga_tmt": -15.876900000000001,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_28",
+      "automation_tmt": -15.8432,
+      "ga_tmt": -15.8432,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_29",
+      "automation_tmt": -15.7265,
+      "ga_tmt": -15.7265,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_30",
+      "automation_tmt": -15.6882,
+      "ga_tmt": -15.6882,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_31",
+      "automation_tmt": -15.866800000000003,
+      "ga_tmt": -15.866800000000003,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_32",
+      "automation_tmt": -15.804599999999995,
+      "ga_tmt": -15.804599999999995,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_33",
+      "automation_tmt": -15.541000000000006,
+      "ga_tmt": -15.541000000000006,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_34",
+      "automation_tmt": -15.667999999999992,
+      "ga_tmt": -15.667999999999992,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_35",
+      "automation_tmt": -15.567200000000001,
+      "ga_tmt": -15.567200000000001,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_36",
+      "automation_tmt": -15.695100000000004,
+      "ga_tmt": -15.695100000000004,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_37",
+      "automation_tmt": -14.380699999999996,
+      "ga_tmt": -14.380699999999996,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_38",
+      "automation_tmt": -14.109100000000002,
+      "ga_tmt": -14.109100000000002,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_39",
+      "automation_tmt": -13.684000000000005,
+      "ga_tmt": -13.684000000000005,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_40",
+      "automation_tmt": -13.571700000000005,
+      "ga_tmt": -13.571700000000005,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_41",
+      "automation_tmt": -13.371900000000005,
+      "ga_tmt": -13.371900000000005,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_42",
+      "automation_tmt": -13.412399999999998,
+      "ga_tmt": -13.412399999999998,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_43",
+      "automation_tmt": -13.731800000000003,
+      "ga_tmt": -13.731800000000003,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_44",
+      "automation_tmt": -13.896300000000004,
+      "ga_tmt": -13.896300000000004,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_45",
+      "automation_tmt": -15.7375,
+      "ga_tmt": -15.7375,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_46",
+      "automation_tmt": -14.733600000000003,
+      "ga_tmt": -14.733600000000003,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_47",
+      "automation_tmt": -14.7238,
+      "ga_tmt": -14.7238,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_48",
+      "automation_tmt": -14.265199999999998,
+      "ga_tmt": -14.265199999999998,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_49",
+      "automation_tmt": -13.995900000000002,
+      "ga_tmt": -13.995900000000002,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_50",
+      "automation_tmt": -14.023200000000005,
+      "ga_tmt": -14.023200000000005,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_51",
+      "automation_tmt": -13.790500000000002,
+      "ga_tmt": -13.790500000000002,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_52",
+      "automation_tmt": -13.849000000000004,
+      "ga_tmt": -13.849000000000004,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_53",
+      "automation_tmt": -15.508400000000002,
+      "ga_tmt": -15.508400000000002,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_54",
+      "automation_tmt": -15.374700000000006,
+      "ga_tmt": -15.374700000000006,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_55",
+      "automation_tmt": -15.0913,
+      "ga_tmt": -15.0913,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_56",
+      "automation_tmt": -14.9869,
+      "ga_tmt": -14.9869,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_57",
+      "automation_tmt": -15.263099999999996,
+      "ga_tmt": -15.263099999999996,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_58",
+      "automation_tmt": -15.259300000000001,
+      "ga_tmt": -15.259300000000001,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_59",
+      "automation_tmt": -15.161900000000001,
+      "ga_tmt": -15.161900000000001,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_60",
+      "automation_tmt": -15.057700000000006,
+      "ga_tmt": -15.057700000000006,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_61",
+      "automation_tmt": -15.425599999999998,
+      "ga_tmt": -15.425599999999998,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_62",
+      "automation_tmt": -15.330900000000003,
+      "ga_tmt": -15.330900000000003,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_63",
+      "automation_tmt": -15.476200000000006,
+      "ga_tmt": -15.476200000000006,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_64",
+      "automation_tmt": -15.363399999999993,
+      "ga_tmt": -15.363399999999993,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_65",
+      "automation_tmt": -14.815099999999994,
+      "ga_tmt": -14.815099999999994,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_66",
+      "automation_tmt": -14.944799999999997,
+      "ga_tmt": -14.944799999999997,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_67",
+      "automation_tmt": -14.897999999999998,
+      "ga_tmt": -14.897999999999998,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    },
+    {
+      "scenario_id": "scenario_68",
+      "automation_tmt": -15.042900000000005,
+      "ga_tmt": -15.042900000000005,
+      "tmt_improvement": 0.0,
+      "improvement_percentage": 0.0,
+      "status": "\u2796 SIN CAMBIO"
+    }
+  ]
+}

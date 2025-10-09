@@ -1,0 +1,426 @@
+
+=== REPORTE CORRECTO DE COMPARACIÓN TMT ANTES Y DESPUÉS ===
+
+Fecha: 2025-10-08 19:37:57
+
+METODOLOGÍA: TMT = Suma de DT negativos (descoordinación)
+- DT = (Tiempo_backup - Tiempo_main) - CTI
+- TMT negativo = Descoordinación (malo)
+- TMT positivo = Coordinación (bueno)
+- Mejora = TMT_después - TMT_antes (positivo = mejora)
+
+ESTADÍSTICAS GENERALES:
+- Total de escenarios analizados: 68
+- Escenarios con mejora: 68
+- Escenarios con empeoramiento: 0
+- Mejora promedio: 87.04%
+
+RESULTADOS POR ESCENARIO:
+
+Escenario: scenario_1
+  TMT Antes: -15.8543s (Coord: 12.0%)
+  TMT Después: -0.0916s (Coord: 94.0%)
+  Mejora: 15.7627s (99.42%)
+  Pares: 100
+
+Escenario: scenario_2
+  TMT Antes: -18.9624s (Coord: 12.0%)
+  TMT Después: -6.9597s (Coord: 97.0%)
+  Mejora: 12.0027s (63.3%)
+  Pares: 100
+
+Escenario: scenario_3
+  TMT Antes: -17.8215s (Coord: 13.0%)
+  TMT Después: -5.8753s (Coord: 98.0%)
+  Mejora: 11.9462s (67.03%)
+  Pares: 100
+
+Escenario: scenario_4
+  TMT Antes: -15.2305s (Coord: 13.0%)
+  TMT Después: -0.3045s (Coord: 93.0%)
+  Mejora: 14.926s (98.0%)
+  Pares: 100
+
+Escenario: scenario_5
+  TMT Antes: -24.9475s (Coord: 13.0%)
+  TMT Después: -5.1563s (Coord: 97.0%)
+  Mejora: 19.7912s (79.33%)
+  Pares: 100
+
+Escenario: scenario_6
+  TMT Antes: -20.9747s (Coord: 13.0%)
+  TMT Después: -5.2862s (Coord: 98.0%)
+  Mejora: 15.6885s (74.8%)
+  Pares: 100
+
+Escenario: scenario_7
+  TMT Antes: -17.7863s (Coord: 14.0%)
+  TMT Después: -5.6461s (Coord: 98.0%)
+  Mejora: 12.1402s (68.26%)
+  Pares: 100
+
+Escenario: scenario_8
+  TMT Antes: -19.0027s (Coord: 12.0%)
+  TMT Después: -5.8088s (Coord: 98.0%)
+  Mejora: 13.1939s (69.43%)
+  Pares: 100
+
+Escenario: scenario_9
+  TMT Antes: -20.1472s (Coord: 14.0%)
+  TMT Después: -5.3008s (Coord: 98.0%)
+  Mejora: 14.8464s (73.69%)
+  Pares: 100
+
+Escenario: scenario_10
+  TMT Antes: -19.2274s (Coord: 14.0%)
+  TMT Después: -4.7347s (Coord: 97.0%)
+  Mejora: 14.4927s (75.38%)
+  Pares: 100
+
+Escenario: scenario_11
+  TMT Antes: -17.8127s (Coord: 12.0%)
+  TMT Después: -4.3184s (Coord: 98.0%)
+  Mejora: 13.4943s (75.76%)
+  Pares: 100
+
+Escenario: scenario_12
+  TMT Antes: -18.1171s (Coord: 11.0%)
+  TMT Después: -5.5154s (Coord: 98.0%)
+  Mejora: 12.6017s (69.56%)
+  Pares: 100
+
+Escenario: scenario_13
+  TMT Antes: -18.4497s (Coord: 13.0%)
+  TMT Después: -4.917s (Coord: 90.0%)
+  Mejora: 13.5327s (73.35%)
+  Pares: 100
+
+Escenario: scenario_14
+  TMT Antes: -45.6815s (Coord: 14.0%)
+  TMT Después: -4.3458s (Coord: 98.0%)
+  Mejora: 41.3357s (90.49%)
+  Pares: 100
+
+Escenario: scenario_15
+  TMT Antes: -32.1528s (Coord: 14.0%)
+  TMT Después: -6.0274s (Coord: 98.0%)
+  Mejora: 26.1254s (81.25%)
+  Pares: 100
+
+Escenario: scenario_16
+  TMT Antes: -23.6468s (Coord: 11.0%)
+  TMT Después: -3.9048s (Coord: 91.0%)
+  Mejora: 19.742s (83.49%)
+  Pares: 100
+
+Escenario: scenario_17
+  TMT Antes: -17.7734s (Coord: 13.0%)
+  TMT Después: -2.8916s (Coord: 94.0%)
+  Mejora: 14.8818s (83.73%)
+  Pares: 100
+
+Escenario: scenario_18
+  TMT Antes: -18.3251s (Coord: 10.0%)
+  TMT Después: -4.7175s (Coord: 98.0%)
+  Mejora: 13.6076s (74.26%)
+  Pares: 100
+
+Escenario: scenario_19
+  TMT Antes: -18.0611s (Coord: 13.0%)
+  TMT Después: -3.8991s (Coord: 98.0%)
+  Mejora: 14.162s (78.41%)
+  Pares: 100
+
+Escenario: scenario_20
+  TMT Antes: -18.2316s (Coord: 11.0%)
+  TMT Después: -5.0542s (Coord: 98.0%)
+  Mejora: 13.1774s (72.28%)
+  Pares: 100
+
+Escenario: scenario_21
+  TMT Antes: -15.9922s (Coord: 12.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.9922s (100.0%)
+  Pares: 100
+
+Escenario: scenario_22
+  TMT Antes: -15.895s (Coord: 12.0%)
+  TMT Después: -0.0143s (Coord: 98.0%)
+  Mejora: 15.8807s (99.91%)
+  Pares: 100
+
+Escenario: scenario_23
+  TMT Antes: -15.6903s (Coord: 10.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.6903s (100.0%)
+  Pares: 100
+
+Escenario: scenario_24
+  TMT Antes: -15.5895s (Coord: 15.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.5895s (100.0%)
+  Pares: 100
+
+Escenario: scenario_25
+  TMT Antes: -15.6964s (Coord: 12.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.6964s (100.0%)
+  Pares: 100
+
+Escenario: scenario_26
+  TMT Antes: -15.8085s (Coord: 7.0%)
+  TMT Después: -0.3774s (Coord: 92.0%)
+  Mejora: 15.4311s (97.61%)
+  Pares: 100
+
+Escenario: scenario_27
+  TMT Antes: -15.8769s (Coord: 13.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.8769s (100.0%)
+  Pares: 100
+
+Escenario: scenario_28
+  TMT Antes: -15.8432s (Coord: 12.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.8432s (100.0%)
+  Pares: 100
+
+Escenario: scenario_29
+  TMT Antes: -15.7265s (Coord: 15.0%)
+  TMT Después: -0.5061s (Coord: 91.0%)
+  Mejora: 15.2204s (96.78%)
+  Pares: 100
+
+Escenario: scenario_30
+  TMT Antes: -15.6882s (Coord: 9.0%)
+  TMT Después: -0.0033s (Coord: 99.0%)
+  Mejora: 15.6849s (99.98%)
+  Pares: 100
+
+Escenario: scenario_31
+  TMT Antes: -15.8668s (Coord: 11.0%)
+  TMT Después: -0.1428s (Coord: 97.0%)
+  Mejora: 15.724s (99.1%)
+  Pares: 100
+
+Escenario: scenario_32
+  TMT Antes: -15.8046s (Coord: 11.0%)
+  TMT Después: -0.1026s (Coord: 96.0%)
+  Mejora: 15.702s (99.35%)
+  Pares: 100
+
+Escenario: scenario_33
+  TMT Antes: -15.541s (Coord: 12.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.541s (100.0%)
+  Pares: 100
+
+Escenario: scenario_34
+  TMT Antes: -15.668s (Coord: 11.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.668s (100.0%)
+  Pares: 100
+
+Escenario: scenario_35
+  TMT Antes: -15.5672s (Coord: 11.0%)
+  TMT Después: -0.0046s (Coord: 99.0%)
+  Mejora: 15.5626s (99.97%)
+  Pares: 100
+
+Escenario: scenario_36
+  TMT Antes: -15.6951s (Coord: 10.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.6951s (100.0%)
+  Pares: 100
+
+Escenario: scenario_37
+  TMT Antes: -19.9642s (Coord: 10.0%)
+  TMT Después: -5.2613s (Coord: 98.0%)
+  Mejora: 14.7029s (73.65%)
+  Pares: 100
+
+Escenario: scenario_38
+  TMT Antes: -19.4904s (Coord: 8.0%)
+  TMT Después: -5.006s (Coord: 98.0%)
+  Mejora: 14.4844s (74.32%)
+  Pares: 100
+
+Escenario: scenario_39
+  TMT Antes: -17.9669s (Coord: 13.0%)
+  TMT Después: -5.5343s (Coord: 98.0%)
+  Mejora: 12.4326s (69.2%)
+  Pares: 100
+
+Escenario: scenario_40
+  TMT Antes: -17.84s (Coord: 13.0%)
+  TMT Después: -4.4007s (Coord: 92.0%)
+  Mejora: 13.4393s (75.33%)
+  Pares: 100
+
+Escenario: scenario_41
+  TMT Antes: -18.7637s (Coord: 14.0%)
+  TMT Después: -5.424s (Coord: 98.0%)
+  Mejora: 13.3397s (71.09%)
+  Pares: 100
+
+Escenario: scenario_42
+  TMT Antes: -17.7312s (Coord: 16.0%)
+  TMT Después: -4.6109s (Coord: 98.0%)
+  Mejora: 13.1203s (74.0%)
+  Pares: 100
+
+Escenario: scenario_43
+  TMT Antes: -17.5218s (Coord: 13.0%)
+  TMT Después: -3.9594s (Coord: 98.0%)
+  Mejora: 13.5624s (77.4%)
+  Pares: 100
+
+Escenario: scenario_44
+  TMT Antes: -17.6427s (Coord: 10.0%)
+  TMT Después: -4.4116s (Coord: 98.0%)
+  Mejora: 13.2311s (74.99%)
+  Pares: 100
+
+Escenario: scenario_45
+  TMT Antes: -22.8568s (Coord: 13.0%)
+  TMT Después: -4.8157s (Coord: 96.0%)
+  Mejora: 18.0411s (78.93%)
+  Pares: 100
+
+Escenario: scenario_46
+  TMT Antes: -21.0507s (Coord: 12.0%)
+  TMT Después: -5.827s (Coord: 98.0%)
+  Mejora: 15.2237s (72.32%)
+  Pares: 100
+
+Escenario: scenario_47
+  TMT Antes: -20.7948s (Coord: 12.0%)
+  TMT Después: -6.0697s (Coord: 98.0%)
+  Mejora: 14.7251s (70.81%)
+  Pares: 100
+
+Escenario: scenario_48
+  TMT Antes: -19.9803s (Coord: 10.0%)
+  TMT Después: -5.1068s (Coord: 97.0%)
+  Mejora: 14.8735s (74.44%)
+  Pares: 100
+
+Escenario: scenario_49
+  TMT Antes: -17.7564s (Coord: 11.0%)
+  TMT Después: -4.1807s (Coord: 93.0%)
+  Mejora: 13.5757s (76.46%)
+  Pares: 100
+
+Escenario: scenario_50
+  TMT Antes: -17.7856s (Coord: 9.0%)
+  TMT Después: -3.7036s (Coord: 96.0%)
+  Mejora: 14.082s (79.18%)
+  Pares: 100
+
+Escenario: scenario_51
+  TMT Antes: -17.5827s (Coord: 14.0%)
+  TMT Después: -5.2466s (Coord: 96.0%)
+  Mejora: 12.3361s (70.16%)
+  Pares: 100
+
+Escenario: scenario_52
+  TMT Antes: -17.6468s (Coord: 13.0%)
+  TMT Después: -5.8027s (Coord: 97.0%)
+  Mejora: 11.8441s (67.12%)
+  Pares: 100
+
+Escenario: scenario_53
+  TMT Antes: -15.5084s (Coord: 9.0%)
+  TMT Después: -0.0614s (Coord: 97.0%)
+  Mejora: 15.447s (99.6%)
+  Pares: 100
+
+Escenario: scenario_54
+  TMT Antes: -15.3747s (Coord: 13.0%)
+  TMT Después: -0.089s (Coord: 93.0%)
+  Mejora: 15.2857s (99.42%)
+  Pares: 100
+
+Escenario: scenario_55
+  TMT Antes: -15.0913s (Coord: 15.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.0913s (100.0%)
+  Pares: 100
+
+Escenario: scenario_56
+  TMT Antes: -14.9869s (Coord: 12.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 14.9869s (100.0%)
+  Pares: 100
+
+Escenario: scenario_57
+  TMT Antes: -15.2631s (Coord: 12.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.2631s (100.0%)
+  Pares: 100
+
+Escenario: scenario_58
+  TMT Antes: -15.2593s (Coord: 12.0%)
+  TMT Después: -0.1393s (Coord: 97.0%)
+  Mejora: 15.12s (99.09%)
+  Pares: 100
+
+Escenario: scenario_59
+  TMT Antes: -15.1619s (Coord: 12.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.1619s (100.0%)
+  Pares: 100
+
+Escenario: scenario_60
+  TMT Antes: -15.0577s (Coord: 12.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.0577s (100.0%)
+  Pares: 100
+
+Escenario: scenario_61
+  TMT Antes: -15.4256s (Coord: 11.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 15.4256s (100.0%)
+  Pares: 100
+
+Escenario: scenario_62
+  TMT Antes: -15.3309s (Coord: 14.0%)
+  TMT Después: -0.1967s (Coord: 88.0%)
+  Mejora: 15.1342s (98.72%)
+  Pares: 100
+
+Escenario: scenario_63
+  TMT Antes: -15.4762s (Coord: 15.0%)
+  TMT Después: -0.0047s (Coord: 98.0%)
+  Mejora: 15.4715s (99.97%)
+  Pares: 100
+
+Escenario: scenario_64
+  TMT Antes: -15.3634s (Coord: 11.0%)
+  TMT Después: -0.0015s (Coord: 99.0%)
+  Mejora: 15.3619s (99.99%)
+  Pares: 100
+
+Escenario: scenario_65
+  TMT Antes: -14.8151s (Coord: 15.0%)
+  TMT Después: -0.1957s (Coord: 96.0%)
+  Mejora: 14.6194s (98.68%)
+  Pares: 100
+
+Escenario: scenario_66
+  TMT Antes: -14.9448s (Coord: 14.0%)
+  TMT Después: -0.0039s (Coord: 99.0%)
+  Mejora: 14.9409s (99.97%)
+  Pares: 100
+
+Escenario: scenario_67
+  TMT Antes: -14.898s (Coord: 14.0%)
+  TMT Después: 0s (Coord: 100.0%)
+  Mejora: 14.898s (100.0%)
+  Pares: 100
+
+Escenario: scenario_68
+  TMT Antes: -15.0429s (Coord: 16.0%)
+  TMT Después: -0.01s (Coord: 99.0%)
+  Mejora: 15.0329s (99.93%)
+  Pares: 100

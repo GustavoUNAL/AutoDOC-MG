@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Por qué el TMT no puede ser negativo?</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .explanation {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #3498db;
+        }
+        .chart-container {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fafafa;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .good { color: #27ae60; font-weight: bold; }
+        .bad { color: #e74c3c; font-weight: bold; }
+        .neutral { color: #f39c12; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 ¿Por qué el TMT no puede ser negativo?</h1>
+        
+        <div class="explanation">
+            <h2>🎯 CONCEPTO DE TMT (Total Miscoordination Time)</h2>
+            <p><strong>TMT = Tiempo Total de Descoordinación</strong></p>
+            <ul>
+                <li>Representa el tiempo REAL acumulado de violaciones de coordinación entre relays</li>
+                <li><strong>TMT NO PUEDE SER NEGATIVO</strong> porque representa tiempo real</li>
+                <li><strong>TMT DEBE SER LO MÁS BAJO POSIBLE</strong> (ideal = 0 segundos)</li>
+                <li><strong>TMT NEGATIVO = IMPOSIBLE</strong> (no puede haber tiempo negativo)</li>
+            </ul>
+            
+            <h3>✅ LO QUE SÍ PUEDE SER NEGATIVO:</h3>
+            <ul>
+                <li><strong>Mejora TMT = TMT_antes - TMT_después</strong></li>
+                <li><strong>Mejora TMT Positiva:</strong> TMT disminuyó (mejor coordinación) ✅</li>
+                <li><strong>Mejora TMT Negativa:</strong> TMT aumentó (peor coordinación) ❌</li>
+            </ul>
+            
+            <h3>🎯 INTERPRETACIÓN CORRECTA:</h3>
+            <ul>
+                <li><strong>TMT BAJO (< 15s)</strong> = BUENA coordinación 🟢</li>
+                <li><strong>TMT MEDIO (15-20s)</strong> = COORDINACIÓN REGULAR 🟡</li>
+                <li><strong>TMT ALTO (> 20s)</strong> = MALA coordinación 🔴</li>
+            </ul>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">68</div>
+                <div>Total Escenarios</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">8</div>
+                <div>Escenarios Mejorados</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">13.0s</div>
+                <div>TMT Mínimo</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">23.3s</div>
+                <div>TMT Máximo</div>
+            </div>
+        </div>
+        
+        <div class="chart-container">
+            <h2>📊 TMT Después de Optimización (Ordenado de Mejor a Peor)</h2>
+            <canvas id="tmtChart"></canvas>
+        </div>
+        
+        <div class="chart-container">
+            <h2>📈 Mejora TMT por Escenario</h2>
+            <canvas id="improvementChart"></canvas>
+        </div>
+        
+        <div class="explanation">
+            <h2>💡 CONCLUSIONES</h2>
+            <p><strong>El TMT NO puede ser negativo</strong> porque representa tiempo real de descoordinación. 
+            Lo que SÍ puede ser negativo es la <strong>MEJORA del TMT</strong> (cuando empeora la coordinación).</p>
+            
+            <p><strong>Objetivo de la optimización:</strong> Minimizar TMT - hacer que el tiempo total de 
+            descoordinación sea lo más bajo posible, idealmente 0 segundos.</p>
+        </div>
+    </div>
+
+    <script>
+        // Data
+        const scenarioIds = ["scenario_47", "scenario_13", "scenario_8", "scenario_45", "scenario_9", "scenario_65", "scenario_15", "scenario_34", "scenario_11", "scenario_38", "scenario_44", "scenario_39", "scenario_5", "scenario_50", "scenario_7", "scenario_2", "scenario_14", "scenario_43", "scenario_28", "scenario_62", "scenario_46", "scenario_59", "scenario_48", "scenario_31", "scenario_42", "scenario_41", "scenario_52", "scenario_27", "scenario_12", "scenario_19", "scenario_57", "scenario_20", "scenario_40", "scenario_30", "scenario_17", "scenario_1", "scenario_18", "scenario_67", "scenario_35", "scenario_54", "scenario_63", "scenario_29", "scenario_23", "scenario_60", "scenario_22", "scenario_49", "scenario_6", "scenario_10", "scenario_3", "scenario_24", "scenario_4", "scenario_26", "scenario_64", "scenario_37", "scenario_66", "scenario_25", "scenario_21", "scenario_33", "scenario_56", "scenario_16", "scenario_58", "scenario_61", "scenario_51", "scenario_53", "scenario_55", "scenario_36", "scenario_68", "scenario_32"];
+        const tmtAfter = [13.011554, 13.339896, 14.037587, 14.384335, 14.423927, 14.514785, 14.569519, 14.6547, 14.742926, 14.843791, 15.025118, 15.166776, 15.576896, 15.585703, 15.863958, 15.94847, 16.11061, 16.207289, 16.482043, 16.589864, 16.679856, 16.699455, 16.823479, 16.875518, 16.937791, 16.940597, 16.978132, 17.646384, 17.802597, 17.819917, 17.891879, 17.97557, 18.344391, 18.609293, 18.632657, 18.685726, 18.707713, 18.772275, 19.167761, 19.19327, 19.20787, 19.385723, 19.414939, 19.54855, 19.76619, 19.774166, 19.806417, 19.812123, 19.935995, 19.960226, 19.992534, 20.195657, 20.338749, 20.453563, 20.564142, 20.588029, 20.684592, 20.702617, 20.756118, 20.812964, 20.933777, 21.344916, 21.541732, 21.668177, 21.854974, 21.942887, 22.628625, 23.330249];
+        const improvements = [1.712246, 0.494504, -0.314487, 1.353165, -0.535227, 0.300315, 5.825081, 1.0133, -0.692526, -0.734691, -1.128818, -1.482776, 1.306304, -1.562503, -2.349358, -2.25357, 10.86939, -2.475489, -0.638843, -1.258964, -1.946256, -1.537555, -2.558279, -1.008718, -3.525391, -3.568697, -3.129132, -1.769484, -3.929897, -4.001417, -2.628779, -3.99667, -4.772691, -2.921093, -4.634157, -2.831426, -4.602213, -3.874275, -3.600561, -3.81857, -3.73167, -3.659223, -3.724639, -4.49085, -3.87119, -5.778266, -4.995117, -6.200123, -6.391395, -4.370726, -4.762034, -4.387157, -4.975349, -6.072863, -5.619342, -4.891629, -4.692392, -5.161617, -5.769218, -4.733364, -5.674477, -5.919316, -7.751232, -6.159777, -6.763674, -6.247787, -7.585725, -7.525649];
+        
+        // Chart 1: TMT After Optimization
+        const ctx1 = document.getElementById('tmtChart').getContext('2d');
+        new Chart(ctx1, {
+            type: 'bar',
+            data: {
+                labels: scenarioIds.slice(0, 30),
+                datasets: [{
+                    label: 'TMT Después (segundos)',
+                    data: tmtAfter.slice(0, 30),
+                    backgroundColor: tmtAfter.slice(0, 30).map(tmt => 
+                        tmt < 15 ? 'rgba(39, 174, 96, 0.8)' : 
+                        tmt < 20 ? 'rgba(243, 156, 18, 0.8)' : 
+                        'rgba(231, 76, 60, 0.8)'
+                    ),
+                    borderColor: tmtAfter.slice(0, 30).map(tmt => 
+                        tmt < 15 ? 'rgba(39, 174, 96, 1)' : 
+                        tmt < 20 ? 'rgba(243, 156, 18, 1)' : 
+                        'rgba(231, 76, 60, 1)'
+                    ),
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'TMT (segundos)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Escenario (ordenado de mejor a peor)'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+        
+        // Chart 2: TMT Improvement
+        const ctx2 = document.getElementById('improvementChart').getContext('2d');
+        new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: scenarioIds.slice(0, 30),
+                datasets: [{
+                    label: 'Mejora TMT (segundos)',
+                    data: improvements.slice(0, 30),
+                    backgroundColor: improvements.slice(0, 30).map(imp => 
+                        imp > 0 ? 'rgba(39, 174, 96, 0.8)' : 'rgba(231, 76, 60, 0.8)'
+                    ),
+                    borderColor: improvements.slice(0, 30).map(imp => 
+                        imp > 0 ? 'rgba(39, 174, 96, 1)' : 'rgba(231, 76, 60, 1)'
+                    ),
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Mejora TMT (segundos)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Escenario'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

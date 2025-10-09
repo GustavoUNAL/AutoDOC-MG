@@ -1,0 +1,559 @@
+{
+  "metadata": {
+    "timestamp": "20251008_174406",
+    "total_scenarios": 68,
+    "improved_scenarios": 68,
+    "degraded_scenarios": 0,
+    "unchanged_scenarios": 0,
+    "success_rate": 100.0,
+    "avg_automation_tmt": -15.089654411764707,
+    "avg_ga_tmt": -46.84167961451279,
+    "avg_improvement": 31.752025202748094
+  },
+  "scenario_comparisons": [
+    {
+      "scenario_id": "scenario_16",
+      "automation_tmt": -16.079599999999996,
+      "ga_tmt": -69.28822175692314,
+      "tmt_improvement": 53.20862175692314,
+      "improvement_percentage": 330.9076205684417,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_7",
+      "automation_tmt": -13.514599999999996,
+      "ga_tmt": -64.08436152145983,
+      "tmt_improvement": 50.56976152145983,
+      "improvement_percentage": 374.1861506922872,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_48",
+      "automation_tmt": -14.265199999999998,
+      "ga_tmt": -64.57579480910742,
+      "tmt_improvement": 50.31059480910742,
+      "improvement_percentage": 352.68061302405454,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_18",
+      "automation_tmt": -14.105500000000001,
+      "ga_tmt": -60.802962158209475,
+      "tmt_improvement": 46.697462158209476,
+      "improvement_percentage": 331.05853857154636,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_6",
+      "automation_tmt": -14.811300000000003,
+      "ga_tmt": -61.308627448345945,
+      "tmt_improvement": 46.49732744834594,
+      "improvement_percentage": 313.9314405105962,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_10",
+      "automation_tmt": -13.611999999999998,
+      "ga_tmt": -58.10254938262865,
+      "tmt_improvement": 44.49054938262866,
+      "improvement_percentage": 326.84799722765695,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_40",
+      "automation_tmt": -13.571700000000005,
+      "ga_tmt": -56.978911406709045,
+      "tmt_improvement": 43.40721140670904,
+      "improvement_percentage": 319.83621364095154,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_9",
+      "automation_tmt": -13.8887,
+      "ga_tmt": -56.71704208923061,
+      "tmt_improvement": 42.82834208923061,
+      "improvement_percentage": 308.3682568507536,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_45",
+      "automation_tmt": -15.7375,
+      "ga_tmt": -58.227768141758766,
+      "tmt_improvement": 42.49026814175876,
+      "improvement_percentage": 269.9937610278555,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_2",
+      "automation_tmt": -13.694899999999997,
+      "ga_tmt": -55.28913956772453,
+      "tmt_improvement": 41.594239567724536,
+      "improvement_percentage": 303.7206519779227,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_39",
+      "automation_tmt": -13.684000000000005,
+      "ga_tmt": -55.19930159235661,
+      "tmt_improvement": 41.51530159235661,
+      "improvement_percentage": 303.3857175705685,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_17",
+      "automation_tmt": -13.9985,
+      "ga_tmt": -54.87940559598914,
+      "tmt_improvement": 40.88090559598914,
+      "improvement_percentage": 292.0377583025977,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_47",
+      "automation_tmt": -14.7238,
+      "ga_tmt": -54.10538782281407,
+      "tmt_improvement": 39.38158782281407,
+      "improvement_percentage": 267.46891307144944,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_43",
+      "automation_tmt": -13.731800000000003,
+      "ga_tmt": -52.8173704739801,
+      "tmt_improvement": 39.0855704739801,
+      "improvement_percentage": 284.6354481858175,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_51",
+      "automation_tmt": -13.790500000000002,
+      "ga_tmt": -51.97514244938303,
+      "tmt_improvement": 38.18464244938303,
+      "improvement_percentage": 276.89092091935044,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_20",
+      "automation_tmt": -13.978900000000003,
+      "ga_tmt": -52.05768649062551,
+      "tmt_improvement": 38.078786490625504,
+      "improvement_percentage": 272.40188062455195,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_46",
+      "automation_tmt": -14.733600000000003,
+      "ga_tmt": -52.71180837409713,
+      "tmt_improvement": 37.97820837409713,
+      "improvement_percentage": 257.76597962546236,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_37",
+      "automation_tmt": -14.380699999999996,
+      "ga_tmt": -52.09381597715101,
+      "tmt_improvement": 37.71311597715101,
+      "improvement_percentage": 262.2481240631612,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_38",
+      "automation_tmt": -14.109100000000002,
+      "ga_tmt": -51.51306664155339,
+      "tmt_improvement": 37.40396664155338,
+      "improvement_percentage": 265.1052628555569,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_5",
+      "automation_tmt": -16.8832,
+      "ga_tmt": -53.555639014746234,
+      "tmt_improvement": 36.67243901474623,
+      "improvement_percentage": 217.21260788681195,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_50",
+      "automation_tmt": -14.023200000000005,
+      "ga_tmt": -50.383199702307934,
+      "tmt_improvement": 36.35999970230793,
+      "improvement_percentage": 259.28461194526153,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_41",
+      "automation_tmt": -13.371900000000005,
+      "ga_tmt": -49.24520344321073,
+      "tmt_improvement": 35.87330344321072,
+      "improvement_percentage": 268.273793875296,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_12",
+      "automation_tmt": -13.872699999999993,
+      "ga_tmt": -49.260238955801064,
+      "tmt_improvement": 35.38753895580107,
+      "improvement_percentage": 255.087610600684,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_13",
+      "automation_tmt": -13.834400000000002,
+      "ga_tmt": -48.66620847083438,
+      "tmt_improvement": 34.831808470834375,
+      "improvement_percentage": 251.77679169920174,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_11",
+      "automation_tmt": -14.050400000000005,
+      "ga_tmt": -48.53627899606862,
+      "tmt_improvement": 34.485878996068614,
+      "improvement_percentage": 245.44410832480642,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_49",
+      "automation_tmt": -13.995900000000002,
+      "ga_tmt": -47.70006911268074,
+      "tmt_improvement": 33.70416911268073,
+      "improvement_percentage": 240.8145893631758,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_60",
+      "automation_tmt": -15.057700000000006,
+      "ga_tmt": -48.24661322545157,
+      "tmt_improvement": 33.188913225451564,
+      "improvement_percentage": 220.41157165736834,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_3",
+      "automation_tmt": -13.5446,
+      "ga_tmt": -46.6079529042008,
+      "tmt_improvement": 33.0633529042008,
+      "improvement_percentage": 244.10726713377136,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_19",
+      "automation_tmt": -13.818500000000004,
+      "ga_tmt": -46.85901574789482,
+      "tmt_improvement": 33.040515747894815,
+      "improvement_percentage": 239.1034898715114,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_42",
+      "automation_tmt": -13.412399999999998,
+      "ga_tmt": -45.70936368674784,
+      "tmt_improvement": 32.296963686747844,
+      "improvement_percentage": 240.79928787351892,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_8",
+      "automation_tmt": -13.723100000000002,
+      "ga_tmt": -45.521476610481116,
+      "tmt_improvement": 31.798376610481114,
+      "improvement_percentage": 231.71423811297086,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_30",
+      "automation_tmt": -15.6882,
+      "ga_tmt": -45.98877256812911,
+      "tmt_improvement": 30.300572568129105,
+      "improvement_percentage": 193.14244188708142,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_44",
+      "automation_tmt": -13.896300000000004,
+      "ga_tmt": -44.031485084739145,
+      "tmt_improvement": 30.135185084739142,
+      "improvement_percentage": 216.85761738548484,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_64",
+      "automation_tmt": -15.363399999999993,
+      "ga_tmt": -44.59144656330586,
+      "tmt_improvement": 29.228046563305867,
+      "improvement_percentage": 190.24465003388497,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_35",
+      "automation_tmt": -15.567200000000001,
+      "ga_tmt": -44.53537184871872,
+      "tmt_improvement": 28.96817184871872,
+      "improvement_percentage": 186.08466422168866,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_32",
+      "automation_tmt": -15.804599999999995,
+      "ga_tmt": -44.73544896203745,
+      "tmt_improvement": 28.93084896203746,
+      "improvement_percentage": 183.05334498840506,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_21",
+      "automation_tmt": -15.992200000000002,
+      "ga_tmt": -44.90454118747807,
+      "tmt_improvement": 28.912341187478063,
+      "improvement_percentage": 180.79026767723053,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_54",
+      "automation_tmt": -15.374700000000006,
+      "ga_tmt": -43.747998188112696,
+      "tmt_improvement": 28.37329818811269,
+      "improvement_percentage": 184.54537771867209,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_55",
+      "automation_tmt": -15.0913,
+      "ga_tmt": -43.12927611364731,
+      "tmt_improvement": 28.037976113647307,
+      "improvement_percentage": 185.78900501379806,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_4",
+      "automation_tmt": -15.230500000000008,
+      "ga_tmt": -42.97650201638554,
+      "tmt_improvement": 27.746002016385532,
+      "improvement_percentage": 182.17394055602585,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_53",
+      "automation_tmt": -15.508400000000002,
+      "ga_tmt": -43.056826739440794,
+      "tmt_improvement": 27.548426739440792,
+      "improvement_percentage": 177.63551842511666,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_58",
+      "automation_tmt": -15.259300000000001,
+      "ga_tmt": -42.6755220512069,
+      "tmt_improvement": 27.416222051206894,
+      "improvement_percentage": 179.66893665637934,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_52",
+      "automation_tmt": -13.849000000000004,
+      "ga_tmt": -40.80504874228035,
+      "tmt_improvement": 26.956048742280345,
+      "improvement_percentage": 194.6425643893446,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_27",
+      "automation_tmt": -15.876900000000001,
+      "ga_tmt": -42.734265509280554,
+      "tmt_improvement": 26.857365509280555,
+      "improvement_percentage": 169.16000925420298,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_15",
+      "automation_tmt": -20.3946,
+      "ga_tmt": -47.0486998491642,
+      "tmt_improvement": 26.6540998491642,
+      "improvement_percentage": 130.6919471289665,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_34",
+      "automation_tmt": -15.667999999999992,
+      "ga_tmt": -42.19878427510303,
+      "tmt_improvement": 26.530784275103038,
+      "improvement_percentage": 169.33102039253927,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_57",
+      "automation_tmt": -15.263099999999996,
+      "ga_tmt": -41.57244108129246,
+      "tmt_improvement": 26.309341081292466,
+      "improvement_percentage": 172.37219884094628,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_56",
+      "automation_tmt": -14.9869,
+      "ga_tmt": -41.181271472096974,
+      "tmt_improvement": 26.194371472096975,
+      "improvement_percentage": 174.7817859070053,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_29",
+      "automation_tmt": -15.7265,
+      "ga_tmt": -41.275625536410416,
+      "tmt_improvement": 25.549125536410415,
+      "improvement_percentage": 162.45906931873216,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_36",
+      "automation_tmt": -15.695100000000004,
+      "ga_tmt": -41.03179950033534,
+      "tmt_improvement": 25.336699500335335,
+      "improvement_percentage": 161.4306344039562,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_25",
+      "automation_tmt": -15.696399999999999,
+      "ga_tmt": -40.98530985458812,
+      "tmt_improvement": 25.28890985458812,
+      "improvement_percentage": 161.11280200930227,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_62",
+      "automation_tmt": -15.330900000000003,
+      "ga_tmt": -40.56242502376585,
+      "tmt_improvement": 25.231525023765844,
+      "improvement_percentage": 164.5795421258102,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_67",
+      "automation_tmt": -14.897999999999998,
+      "ga_tmt": -39.98567681838327,
+      "tmt_improvement": 25.087676818383272,
+      "improvement_percentage": 168.39627344867282,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_65",
+      "automation_tmt": -14.815099999999994,
+      "ga_tmt": -39.50062509372903,
+      "tmt_improvement": 24.685525093729034,
+      "improvement_percentage": 166.6240868689988,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_23",
+      "automation_tmt": -15.6903,
+      "ga_tmt": -39.80412935497598,
+      "tmt_improvement": 24.113829354975977,
+      "improvement_percentage": 153.6862224111456,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_33",
+      "automation_tmt": -15.541000000000006,
+      "ga_tmt": -39.38992138350232,
+      "tmt_improvement": 23.848921383502315,
+      "improvement_percentage": 153.45808753299212,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_22",
+      "automation_tmt": -15.895,
+      "ga_tmt": -39.40491847227903,
+      "tmt_improvement": 23.50991847227903,
+      "improvement_percentage": 147.90763430184984,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_59",
+      "automation_tmt": -15.161900000000001,
+      "ga_tmt": -38.43984270650391,
+      "tmt_improvement": 23.277942706503907,
+      "improvement_percentage": 153.52919295407506,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_14",
+      "automation_tmt": -26.980000000000008,
+      "ga_tmt": -50.20837318595394,
+      "tmt_improvement": 23.22837318595393,
+      "improvement_percentage": 86.09478571517393,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_26",
+      "automation_tmt": -15.808500000000004,
+      "ga_tmt": -38.70618535366898,
+      "tmt_improvement": 22.897685353668976,
+      "improvement_percentage": 144.84413672182035,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_63",
+      "automation_tmt": -15.476200000000006,
+      "ga_tmt": -38.13991297573284,
+      "tmt_improvement": 22.663712975732835,
+      "improvement_percentage": 146.44236295558875,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_24",
+      "automation_tmt": -15.589500000000001,
+      "ga_tmt": -38.17313450204639,
+      "tmt_improvement": 22.583634502046387,
+      "improvement_percentage": 144.86439271334157,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_66",
+      "automation_tmt": -14.944799999999997,
+      "ga_tmt": -37.52224562248345,
+      "tmt_improvement": 22.577445622483456,
+      "improvement_percentage": 151.07225003000013,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_31",
+      "automation_tmt": -15.866800000000003,
+      "ga_tmt": -38.04097212677118,
+      "tmt_improvement": 22.174172126771175,
+      "improvement_percentage": 139.75201128627808,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_61",
+      "automation_tmt": -15.425599999999998,
+      "ga_tmt": -36.28575505216818,
+      "tmt_improvement": 20.86015505216818,
+      "improvement_percentage": 135.2307531128007,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_28",
+      "automation_tmt": -15.8432,
+      "ga_tmt": -36.633394140414715,
+      "tmt_improvement": 20.790194140414716,
+      "improvement_percentage": 131.22471559037768,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_68",
+      "automation_tmt": -15.042900000000005,
+      "ga_tmt": -35.140619902273166,
+      "tmt_improvement": 20.097719902273163,
+      "improvement_percentage": 133.60269563896028,
+      "status": "\u2705 MEJOR\u00d3"
+    },
+    {
+      "scenario_id": "scenario_1",
+      "automation_tmt": -15.854299999999997,
+      "ga_tmt": -33.07002135799172,
+      "tmt_improvement": 17.215721357991725,
+      "improvement_percentage": 108.58707958088172,
+      "status": "\u2705 MEJOR\u00d3"
+    }
+  ]
+}

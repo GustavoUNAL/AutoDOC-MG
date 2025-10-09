@@ -1,0 +1,75 @@
+ANÁLISIS TMT MEJORADO - TABLA RESUMEN
+========================================================================================================================
+Generado: 2025-10-08 12:09:32
+Total Escenarios: 68
+
+Rank Escenario    Estado       TMT_Inicial  TMT_Optimizado  Mejora     %Mejora  Categoria   
+------------------------------------------------------------------------------------------------------------------------
+1    scenario_14  Mejoró       26.980       16.111          +10.869    +40.3    Excelente   
+2    scenario_15  Mejoró       20.395       14.570          +5.825     +28.6    Excelente   
+3    scenario_47  Mejoró       14.724       13.012          +1.712     +11.6    Excelente   
+4    scenario_45  Mejoró       15.738       14.384          +1.353     +8.6     Excelente   
+5    scenario_5   Mejoró       16.883       15.577          +1.306     +7.7     Excelente   
+6    scenario_34  Mejoró       15.668       14.655          +1.013     +6.5     Excelente   
+7    scenario_13  Mejoró       13.834       13.340          +0.495     +3.6     Bueno       
+8    scenario_65  Mejoró       14.815       14.515          +0.300     +2.0     Bueno       
+9    scenario_8   Empeoró      13.723       14.038          -0.314     -2.3     Neutral     
+10   scenario_9   Empeoró      13.889       14.424          -0.535     -3.9     Neutral     
+11   scenario_28  Empeoró      15.843       16.482          -0.639     -4.0     Neutral     
+12   scenario_11  Empeoró      14.050       14.743          -0.693     -4.9     Neutral     
+13   scenario_38  Empeoró      14.109       14.844          -0.735     -5.2     Neutral     
+14   scenario_31  Empeoró      15.867       16.876          -1.009     -6.4     Malo        
+15   scenario_44  Empeoró      13.896       15.025          -1.129     -8.1     Malo        
+16   scenario_62  Empeoró      15.331       16.590          -1.259     -8.2     Malo        
+17   scenario_39  Empeoró      13.684       15.167          -1.483     -10.8    Malo        
+18   scenario_59  Empeoró      15.162       16.699          -1.538     -10.1    Malo        
+19   scenario_50  Empeoró      14.023       15.586          -1.563     -11.1    Malo        
+20   scenario_27  Empeoró      15.877       17.646          -1.769     -11.2    Malo        
+21   scenario_46  Empeoró      14.734       16.680          -1.946     -13.2    Malo        
+22   scenario_2   Empeoró      13.695       15.948          -2.254     -16.5    Malo        
+23   scenario_7   Empeoró      13.515       15.864          -2.349     -17.4    Malo        
+24   scenario_43  Empeoró      13.732       16.207          -2.475     -18.0    Malo        
+25   scenario_48  Empeoró      14.265       16.823          -2.558     -17.9    Malo        
+26   scenario_57  Empeoró      15.263       17.892          -2.629     -17.2    Malo        
+27   scenario_1   Empeoró      15.854       18.686          -2.831     -17.9    Malo        
+28   scenario_30  Empeoró      15.688       18.609          -2.921     -18.6    Malo        
+29   scenario_52  Empeoró      13.849       16.978          -3.129     -22.6    Muy Malo    
+30   scenario_42  Empeoró      13.412       16.938          -3.525     -26.3    Muy Malo    
+31   scenario_41  Empeoró      13.372       16.941          -3.569     -26.7    Muy Malo    
+32   scenario_35  Empeoró      15.567       19.168          -3.601     -23.1    Muy Malo    
+33   scenario_29  Empeoró      15.726       19.386          -3.659     -23.3    Muy Malo    
+34   scenario_23  Empeoró      15.690       19.415          -3.725     -23.7    Muy Malo    
+35   scenario_63  Empeoró      15.476       19.208          -3.732     -24.1    Muy Malo    
+36   scenario_54  Empeoró      15.375       19.193          -3.819     -24.8    Muy Malo    
+37   scenario_22  Empeoró      15.895       19.766          -3.871     -24.4    Muy Malo    
+38   scenario_67  Empeoró      14.898       18.772          -3.874     -26.0    Muy Malo    
+39   scenario_12  Empeoró      13.873       17.803          -3.930     -28.3    Muy Malo    
+40   scenario_20  Empeoró      13.979       17.976          -3.997     -28.6    Muy Malo    
+41   scenario_19  Empeoró      13.819       17.820          -4.001     -29.0    Muy Malo    
+42   scenario_24  Empeoró      15.589       19.960          -4.371     -28.0    Muy Malo    
+43   scenario_26  Empeoró      15.809       20.196          -4.387     -27.8    Muy Malo    
+44   scenario_60  Empeoró      15.058       19.549          -4.491     -29.8    Muy Malo    
+45   scenario_18  Empeoró      14.105       18.708          -4.602     -32.6    Muy Malo    
+46   scenario_17  Empeoró      13.998       18.633          -4.634     -33.1    Muy Malo    
+47   scenario_21  Empeoró      15.992       20.685          -4.692     -29.3    Muy Malo    
+48   scenario_16  Empeoró      16.080       20.813          -4.733     -29.4    Muy Malo    
+49   scenario_4   Empeoró      15.230       19.993          -4.762     -31.3    Muy Malo    
+50   scenario_40  Empeoró      13.572       18.344          -4.773     -35.2    Muy Malo    
+51   scenario_25  Empeoró      15.696       20.588          -4.892     -31.2    Muy Malo    
+52   scenario_64  Empeoró      15.363       20.339          -4.975     -32.4    Muy Malo    
+53   scenario_6   Empeoró      14.811       19.806          -4.995     -33.7    Muy Malo    
+54   scenario_33  Empeoró      15.541       20.703          -5.162     -33.2    Muy Malo    
+55   scenario_66  Empeoró      14.945       20.564          -5.619     -37.6    Muy Malo    
+56   scenario_58  Empeoró      15.259       20.934          -5.674     -37.2    Muy Malo    
+57   scenario_56  Empeoró      14.987       20.756          -5.769     -38.5    Muy Malo    
+58   scenario_49  Empeoró      13.996       19.774          -5.778     -41.3    Muy Malo    
+59   scenario_61  Empeoró      15.426       21.345          -5.919     -38.4    Muy Malo    
+60   scenario_37  Empeoró      14.381       20.454          -6.073     -42.2    Muy Malo    
+61   scenario_53  Empeoró      15.508       21.668          -6.160     -39.7    Muy Malo    
+62   scenario_10  Empeoró      13.612       19.812          -6.200     -45.5    Muy Malo    
+63   scenario_36  Empeoró      15.695       21.943          -6.248     -39.8    Muy Malo    
+64   scenario_3   Empeoró      13.545       19.936          -6.391     -47.2    Muy Malo    
+65   scenario_55  Empeoró      15.091       21.855          -6.764     -44.8    Muy Malo    
+66   scenario_32  Empeoró      15.805       23.330          -7.526     -47.6    Muy Malo    
+67   scenario_68  Empeoró      15.043       22.629          -7.586     -50.4    Muy Malo    
+68   scenario_51  Empeoró      13.790       21.542          -7.751     -56.2    Muy Malo    

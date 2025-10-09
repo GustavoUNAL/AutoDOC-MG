@@ -1,0 +1,608 @@
+[
+  {
+    "scenario_id": "scenario_60",
+    "timestamp": "2025-10-09T00:11:44.884763+00:00",
+    "relay_values": {
+      "R38": {
+        "TDS": 0.39,
+        "pickup": 0.26041
+      },
+      "R39": {
+        "TDS": 0.42001,
+        "pickup": 0.14695
+      },
+      "R55": {
+        "TDS": 0.5809,
+        "pickup": 0.13403
+      },
+      "R10": {
+        "TDS": 0.71391,
+        "pickup": 0.52589
+      },
+      "R9": {
+        "TDS": 0.5766,
+        "pickup": 0.6176
+      },
+      "R47": {
+        "TDS": 0.09819,
+        "pickup": 0.56139
+      },
+      "R48": {
+        "TDS": 0.21636,
+        "pickup": 0.5888
+      },
+      "R11": {
+        "TDS": 0.40615,
+        "pickup": 0.23256
+      },
+      "R49": {
+        "TDS": 0.53432,
+        "pickup": 0.0811
+      },
+      "R72": {
+        "TDS": 0.73371,
+        "pickup": 0.4032
+      },
+      "R12": {
+        "TDS": 0.51763,
+        "pickup": 0.30849
+      },
+      "R50": {
+        "TDS": 0.4458,
+        "pickup": 0.21266
+      },
+      "R13": {
+        "TDS": 0.23835,
+        "pickup": 0.29415
+      },
+      "R51": {
+        "TDS": 0.20908,
+        "pickup": 0.28071
+      },
+      "R14": {
+        "TDS": 0.3169,
+        "pickup": 0.12327
+      },
+      "R52": {
+        "TDS": 0.23123,
+        "pickup": 0.19071
+      },
+      "R34": {
+        "TDS": 0.20086,
+        "pickup": 0.35857
+      },
+      "R15": {
+        "TDS": 0.17055,
+        "pickup": 0.73853
+      },
+      "R53": {
+        "TDS": 0.2568,
+        "pickup": 0.15505
+      },
+      "R16": {
+        "TDS": 0.09527,
+        "pickup": 0.55285
+      },
+      "R54": {
+        "TDS": 0.5376,
+        "pickup": 0.21931
+      },
+      "R17": {
+        "TDS": 0.23772,
+        "pickup": 0.19717
+      },
+      "R73": {
+        "TDS": 0.21766,
+        "pickup": 0.53577
+      },
+      "R36": {
+        "TDS": 0.28668,
+        "pickup": 0.2
+      },
+      "R32": {
+        "TDS": 0.32883,
+        "pickup": 0.37198
+      },
+      "R19": {
+        "TDS": 0.25001,
+        "pickup": 1.16955
+      },
+      "R18": {
+        "TDS": 0.29381,
+        "pickup": 2.63382
+      },
+      "R56": {
+        "TDS": 0.6076,
+        "pickup": 0.19717
+      },
+      "R57": {
+        "TDS": 0.55417,
+        "pickup": 0.23091
+      },
+      "R1": {
+        "TDS": 0.77207,
+        "pickup": 5.11619
+      },
+      "R2": {
+        "TDS": 0.71852,
+        "pickup": 2.87055
+      },
+      "R40": {
+        "TDS": 0.34819,
+        "pickup": 0.38341
+      },
+      "R59": {
+        "TDS": 0.3425,
+        "pickup": 0.06052
+      },
+      "R20": {
+        "TDS": 0.57584,
+        "pickup": 0.13399
+      },
+      "R58": {
+        "TDS": 0.37659,
+        "pickup": 0.23508
+      },
+      "R33": {
+        "TDS": 0.18091,
+        "pickup": 0.54719
+      },
+      "R21": {
+        "TDS": 0.76723,
+        "pickup": 0.38799
+      },
+      "R35": {
+        "TDS": 0.6265,
+        "pickup": 0.26257
+      },
+      "R7": {
+        "TDS": 0.32032,
+        "pickup": 0.38194
+      },
+      "R45": {
+        "TDS": 0.57553,
+        "pickup": 0.58361
+      },
+      "R70": {
+        "TDS": 0.62251,
+        "pickup": 0.30526
+      },
+      "R23": {
+        "TDS": 0.29655,
+        "pickup": 0.34857
+      },
+      "R22": {
+        "TDS": 0.21966,
+        "pickup": 2.41437
+      },
+      "R60": {
+        "TDS": 0.24258,
+        "pickup": 0.12265
+      },
+      "R61": {
+        "TDS": 0.37866,
+        "pickup": 0.22237
+      },
+      "R24": {
+        "TDS": 0.78274,
+        "pickup": 0.18002
+      },
+      "R74": {
+        "TDS": 0.51301,
+        "pickup": 0.11708
+      },
+      "R37": {
+        "TDS": 0.27555,
+        "pickup": 0.56331
+      },
+      "R28": {
+        "TDS": 0.51531,
+        "pickup": 0.26481
+      },
+      "R66": {
+        "TDS": 0.17892,
+        "pickup": 0.2347
+      },
+      "R26": {
+        "TDS": 0.67848,
+        "pickup": 0.57475
+      },
+      "R25": {
+        "TDS": 0.69461,
+        "pickup": 0.48857
+      },
+      "R63": {
+        "TDS": 0.79119,
+        "pickup": 0.08103
+      },
+      "R64": {
+        "TDS": 0.2212,
+        "pickup": 0.38381
+      },
+      "R27": {
+        "TDS": 0.62074,
+        "pickup": 0.55931
+      },
+      "R65": {
+        "TDS": 0.18534,
+        "pickup": 0.44001
+      },
+      "R29": {
+        "TDS": 0.36084,
+        "pickup": 0.78341
+      },
+      "R67": {
+        "TDS": 0.42902,
+        "pickup": 0.05232
+      },
+      "R3": {
+        "TDS": 0.17342,
+        "pickup": 2.33008
+      },
+      "R41": {
+        "TDS": 0.7233,
+        "pickup": 0.21295
+      },
+      "R30": {
+        "TDS": 0.34959,
+        "pickup": 0.62974
+      },
+      "R68": {
+        "TDS": 0.35743,
+        "pickup": 0.08945
+      },
+      "R31": {
+        "TDS": 0.37974,
+        "pickup": 0.29602
+      },
+      "R69": {
+        "TDS": 0.7232,
+        "pickup": 0.08827
+      },
+      "R4": {
+        "TDS": 0.27527,
+        "pickup": 0.64248
+      },
+      "R42": {
+        "TDS": 0.17438,
+        "pickup": 0.65098
+      },
+      "R5": {
+        "TDS": 0.43641,
+        "pickup": 0.40964
+      },
+      "R43": {
+        "TDS": 0.26569,
+        "pickup": 0.46136
+      },
+      "R62": {
+        "TDS": 0.56809,
+        "pickup": 0.14371
+      },
+      "R6": {
+        "TDS": 0.11956,
+        "pickup": 1.20394
+      },
+      "R44": {
+        "TDS": 0.4802,
+        "pickup": 0.4644
+      },
+      "R8": {
+        "TDS": 0.13451,
+        "pickup": 0.3985
+      },
+      "R46": {
+        "TDS": 0.48451,
+        "pickup": 0.14429
+      },
+      "R71": {
+        "TDS": 0.4758,
+        "pickup": 0.13534
+      }
+    },
+    "initial_settings": {
+      "R38": {
+        "TDS_initial": 0.05,
+        "pickup_initial": 0.35804
+      },
+      "R39": {
+        "TDS_initial": 0.07475,
+        "pickup_initial": 0.22157
+      },
+      "R55": {
+        "TDS_initial": 0.08093,
+        "pickup_initial": 0.13937
+      },
+      "R10": {
+        "TDS_initial": 0.14498,
+        "pickup_initial": 0.06212
+      },
+      "R9": {
+        "TDS_initial": 0.14647,
+        "pickup_initial": 0.06387
+      },
+      "R47": {
+        "TDS_initial": 0.13502,
+        "pickup_initial": 0.06212
+      },
+      "R48": {
+        "TDS_initial": 0.13885,
+        "pickup_initial": 0.06153
+      },
+      "R11": {
+        "TDS_initial": 0.12333,
+        "pickup_initial": 0.06153
+      },
+      "R49": {
+        "TDS_initial": 0.13561,
+        "pickup_initial": 0.02752
+      },
+      "R72": {
+        "TDS_initial": 0.10555,
+        "pickup_initial": 0.08422
+      },
+      "R12": {
+        "TDS_initial": 0.163,
+        "pickup_initial": 0.02752
+      },
+      "R50": {
+        "TDS_initial": 0.15174,
+        "pickup_initial": 0.03054
+      },
+      "R13": {
+        "TDS_initial": 0.15085,
+        "pickup_initial": 0.03054
+      },
+      "R51": {
+        "TDS_initial": 0.16105,
+        "pickup_initial": 0.03087
+      },
+      "R14": {
+        "TDS_initial": 0.05,
+        "pickup_initial": 0.03087
+      },
+      "R52": {
+        "TDS_initial": 0.05,
+        "pickup_initial": 0.06502
+      },
+      "R34": {
+        "TDS_initial": 0.18961,
+        "pickup_initial": 0.01565
+      },
+      "R15": {
+        "TDS_initial": 0.14059,
+        "pickup_initial": 0.06502
+      },
+      "R53": {
+        "TDS_initial": 0.11867,
+        "pickup_initial": 0.06224
+      },
+      "R16": {
+        "TDS_initial": 0.13047,
+        "pickup_initial": 0.06224
+      },
+      "R54": {
+        "TDS_initial": 0.12886,
+        "pickup_initial": 0.05957
+      },
+      "R17": {
+        "TDS_initial": 0.12721,
+        "pickup_initial": 0.05957
+      },
+      "R73": {
+        "TDS_initial": 0.13614,
+        "pickup_initial": 0.05607
+      },
+      "R36": {
+        "TDS_initial": 0.12625,
+        "pickup_initial": 0.05607
+      },
+      "R32": {
+        "TDS_initial": 0.14043,
+        "pickup_initial": 0.05437
+      },
+      "R19": {
+        "TDS_initial": 0.13312,
+        "pickup_initial": 0.14048
+      },
+      "R18": {
+        "TDS_initial": 0.16492,
+        "pickup_initial": 0.13937
+      },
+      "R56": {
+        "TDS_initial": 0.0903,
+        "pickup_initial": 0.14048
+      },
+      "R57": {
+        "TDS_initial": 0.11468,
+        "pickup_initial": 0.14197
+      },
+      "R1": {
+        "TDS_initial": 0.14016,
+        "pickup_initial": 0.35804
+      },
+      "R2": {
+        "TDS_initial": 0.14121,
+        "pickup_initial": 0.22157
+      },
+      "R40": {
+        "TDS_initial": 0.09705,
+        "pickup_initial": 0.14453
+      },
+      "R59": {
+        "TDS_initial": 0.08395,
+        "pickup_initial": 0.07837
+      },
+      "R20": {
+        "TDS_initial": 0.11143,
+        "pickup_initial": 0.14197
+      },
+      "R58": {
+        "TDS_initial": 0.09968,
+        "pickup_initial": 0.08195
+      },
+      "R33": {
+        "TDS_initial": 0.13975,
+        "pickup_initial": 0.0619
+      },
+      "R21": {
+        "TDS_initial": 0.11231,
+        "pickup_initial": 0.08195
+      },
+      "R35": {
+        "TDS_initial": 0.11771,
+        "pickup_initial": 0.08422
+      },
+      "R7": {
+        "TDS_initial": 0.11712,
+        "pickup_initial": 0.15246
+      },
+      "R45": {
+        "TDS_initial": 0.08443,
+        "pickup_initial": 0.21839
+      },
+      "R70": {
+        "TDS_initial": 0.13123,
+        "pickup_initial": 0.0619
+      },
+      "R23": {
+        "TDS_initial": 0.15137,
+        "pickup_initial": 0.07657
+      },
+      "R22": {
+        "TDS_initial": 0.16773,
+        "pickup_initial": 0.07837
+      },
+      "R60": {
+        "TDS_initial": 0.10963,
+        "pickup_initial": 0.07657
+      },
+      "R61": {
+        "TDS_initial": 0.12395,
+        "pickup_initial": 0.07585
+      },
+      "R24": {
+        "TDS_initial": 0.14242,
+        "pickup_initial": 0.07585
+      },
+      "R74": {
+        "TDS_initial": 0.1284,
+        "pickup_initial": 0.08435
+      },
+      "R37": {
+        "TDS_initial": 0.12187,
+        "pickup_initial": 0.08435
+      },
+      "R28": {
+        "TDS_initial": 0.25717,
+        "pickup_initial": 0.00513
+      },
+      "R66": {
+        "TDS_initial": 0.07881,
+        "pickup_initial": 0.08425
+      },
+      "R26": {
+        "TDS_initial": 0.20699,
+        "pickup_initial": 0.01247
+      },
+      "R25": {
+        "TDS_initial": 0.20563,
+        "pickup_initial": 0.01618
+      },
+      "R63": {
+        "TDS_initial": 0.1747,
+        "pickup_initial": 0.01247
+      },
+      "R64": {
+        "TDS_initial": 0.1909,
+        "pickup_initial": 0.00876
+      },
+      "R27": {
+        "TDS_initial": 0.20087,
+        "pickup_initial": 0.00876
+      },
+      "R65": {
+        "TDS_initial": 0.22216,
+        "pickup_initial": 0.00513
+      },
+      "R29": {
+        "TDS_initial": 0.05,
+        "pickup_initial": 0.08425
+      },
+      "R67": {
+        "TDS_initial": 0.05,
+        "pickup_initial": 0.04716
+      },
+      "R3": {
+        "TDS_initial": 0.15193,
+        "pickup_initial": 0.14453
+      },
+      "R41": {
+        "TDS_initial": 0.10734,
+        "pickup_initial": 0.1435
+      },
+      "R30": {
+        "TDS_initial": 0.15169,
+        "pickup_initial": 0.04716
+      },
+      "R68": {
+        "TDS_initial": 0.12502,
+        "pickup_initial": 0.04903
+      },
+      "R31": {
+        "TDS_initial": 0.14847,
+        "pickup_initial": 0.04903
+      },
+      "R69": {
+        "TDS_initial": 0.12335,
+        "pickup_initial": 0.05437
+      },
+      "R4": {
+        "TDS_initial": 0.14283,
+        "pickup_initial": 0.1435
+      },
+      "R42": {
+        "TDS_initial": 0.11453,
+        "pickup_initial": 0.14368
+      },
+      "R5": {
+        "TDS_initial": 0.12367,
+        "pickup_initial": 0.14368
+      },
+      "R43": {
+        "TDS_initial": 0.10707,
+        "pickup_initial": 0.14916
+      },
+      "R62": {
+        "TDS_initial": 0.178,
+        "pickup_initial": 0.01618
+      },
+      "R6": {
+        "TDS_initial": 0.05,
+        "pickup_initial": 0.14916
+      },
+      "R44": {
+        "TDS_initial": 0.05,
+        "pickup_initial": 0.15246
+      },
+      "R8": {
+        "TDS_initial": 0.05,
+        "pickup_initial": 0.21839
+      },
+      "R46": {
+        "TDS_initial": 0.05,
+        "pickup_initial": 0.06387
+      },
+      "R71": {
+        "TDS_initial": 0.16223,
+        "pickup_initial": 0.01565
+      }
+    },
+    "pairs_count": 100,
+    "relays_count": 74,
+    "fault_types": [
+      "90",
+      "10"
+    ]
+  }
+]

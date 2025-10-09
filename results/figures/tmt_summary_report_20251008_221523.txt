@@ -1,0 +1,28 @@
+ANÁLISIS TMT CORRECTO - RESUMEN
+==================================================
+
+METODOLOGÍA:
+• TMT = Suma de DT negativos (descoordinación)
+• DT = (Tiempo_backup - Tiempo_main) - CTI
+• TMT negativo = Descoordinación (malo)
+• TMT positivo = Coordinación (bueno)
+• Mejora = TMT_después - TMT_antes (positivo = mejora)
+
+RESULTADOS:
+• Total escenarios: 68
+• Escenarios mejorados: 68
+• Mejora promedio: 87.04%
+• Coordinación promedio antes: 12.2%
+• Coordinación promedio después: 97.3%
+
+TOP 10 MEJORES RESULTADOS:
+ 1. scenario_21: 100.0% mejora (Coord: 12.0% → 100.0%)
+ 2. scenario_23: 100.0% mejora (Coord: 10.0% → 100.0%)
+ 3. scenario_24: 100.0% mejora (Coord: 15.0% → 100.0%)
+ 4. scenario_25: 100.0% mejora (Coord: 12.0% → 100.0%)
+ 5. scenario_27: 100.0% mejora (Coord: 13.0% → 100.0%)
+ 6. scenario_28: 100.0% mejora (Coord: 12.0% → 100.0%)
+ 7. scenario_33: 100.0% mejora (Coord: 12.0% → 100.0%)
+ 8. scenario_34: 100.0% mejora (Coord: 11.0% → 100.0%)
+ 9. scenario_36: 100.0% mejora (Coord: 10.0% → 100.0%)
+10. scenario_55: 100.0% mejora (Coord: 15.0% → 100.0%)
