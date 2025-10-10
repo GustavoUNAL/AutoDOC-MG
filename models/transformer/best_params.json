@@ -1,10 +1,10 @@
 {
-    "d_model": 32,
+    "d_model": 64,
     "nhead": 16,
-    "num_encoder_layers": 2,
-    "dim_feedforward": 256,
-    "dropout": 0.20647313147231663,
-    "learning_rate": 0.000581065610494624,
+    "num_encoder_layers": 3,
+    "dim_feedforward": 1024,
+    "dropout": 0.24406387170152652,
+    "learning_rate": 0.0002356533849024438,
     "batch_size": 16,
-    "weight_decay": 3.185175750821139e-06
+    "weight_decay": 3.5554966458120447e-06
 }

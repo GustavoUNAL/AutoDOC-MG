@@ -1,0 +1,67 @@
+{
+    "model_info": {
+        "architecture": "RelayOptimizationTransformer",
+        "input_features": 6,
+        "output_features": 4,
+        "total_parameters": 447876,
+        "model_dimension": 64,
+        "num_heads": 16,
+        "encoder_layers": 3,
+        "feedforward_dim": 1024,
+        "dropout": 0.24406387170152652
+    },
+    "validation_results": {
+        "total_samples": 2,
+        "scenarios_tested": 68,
+        "overall_metrics": {
+            "Overall_MSE": 0.043611840803259284,
+            "Overall_MAE": 0.14140154995718637,
+            "Overall_R2": 0.3763102565387122,
+            "Overall_RMSE": 0.2088344818349194
+        },
+        "per_output_metrics": {
+            "Main_TDS": {
+                "MSE": 0.03415823920403214,
+                "MAE": 0.15470475782459592,
+                "R2": 0.0331005790128045,
+                "MAPE": 61.42455541851034,
+                "RMSE": 0.18481947733946263
+            },
+            "Main_Pickup": {
+                "MSE": 0.052124152596620774,
+                "MAE": 0.1357420930608859,
+                "R2": 0.6647563523439415,
+                "MAPE": 58.75112974086091,
+                "RMSE": 0.2283071453034722
+            },
+            "Backup_TDS": {
+                "MSE": 0.03399506615046491,
+                "MAE": 0.15439370384592827,
+                "R2": 0.020989589645076245,
+                "MAPE": 56.44795327487542,
+                "RMSE": 0.18437750988248244
+            },
+            "Backup_Pickup": {
+                "MSE": 0.054169905261919664,
+                "MAE": 0.1207656450973353,
+                "R2": 0.786394505153023,
+                "MAPE": 53.99312469890999,
+                "RMSE": 0.23274429157751575
+            }
+        }
+    },
+    "generalization_results": {
+        "test_scenarios": 3,
+        "total_predictions": 4,
+        "scenario_types": [
+            "High fault current scenario",
+            "Low fault current scenario",
+            "Medium complexity scenario"
+        ]
+    },
+    "performance_assessment": {
+        "model_accuracy": "Low",
+        "generalization_capability": "Good",
+        "recommendation": "Model needs improvement"
+    }
+}

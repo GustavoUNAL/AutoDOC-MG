@@ -1,0 +1,32 @@
+{
+  "analysis_overview": {
+    "total_scenarios_analyzed": 68,
+    "analysis_date": "2025-10-10 16:45:03",
+    "analysis_components": [
+      "Automation",
+      "GA Optimization",
+      "Transformer Generalization"
+    ]
+  },
+  "automation_analysis": {
+    "avg_tmt_magnitude": 3.708414705882353,
+    "scenarios_with_zero_tmt": 0,
+    "avg_coordination_percentage": 82.08823529411765
+  },
+  "ga_optimization_analysis": {
+    "avg_relays_per_scenario": 73.5,
+    "avg_complexity_score": 0.5325853043930948
+  },
+  "transformer_analysis": {
+    "avg_r2_score": 0.2448394062045427,
+    "high_performance_scenarios": 0,
+    "low_performance_scenarios": 22
+  },
+  "overall_assessment": {
+    "avg_overall_score": 0.565149284952752,
+    "best_scenario": "scenario_57",
+    "worst_scenario": "scenario_14",
+    "best_overall_score": 0.6575369371889355,
+    "worst_overall_score": 0.2973449543327891
+  }
+}
