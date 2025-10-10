@@ -1,0 +1,46 @@
+REPORTE ANÁLISIS TMT - OPTIMIZACIÓN GA
+================================================================================
+Generado: 2025-10-10 15:58:45
+Total Escenarios: 68
+
+ESTADÍSTICAS GENERALES:
+----------------------------------------
+Escenarios que mejoraron: 68
+Escenarios que empeoraron: 0
+TMT total antes: -1215.531 segundos
+TMT total después: -171.969 segundos
+Cambio total TMT: +5918.690 segundos
+Tasa de éxito: 100.0%
+
+TOP 10 MEJORES RESULTADOS:
+----------------------------------------
+ 1. scenario_1: -15.854s → -0.092s (Mejora: +99.420s, +99.4%)
+ 2. scenario_2: -18.962s → -6.960s (Mejora: +63.300s, +63.3%)
+ 3. scenario_3: -17.822s → -5.875s (Mejora: +67.030s, +67.0%)
+ 4. scenario_4: -15.230s → -0.304s (Mejora: +98.000s, +98.0%)
+ 5. scenario_5: -24.948s → -5.156s (Mejora: +79.330s, +79.3%)
+ 6. scenario_6: -20.975s → -5.286s (Mejora: +74.800s, +74.8%)
+ 7. scenario_7: -17.786s → -5.646s (Mejora: +68.260s, +68.3%)
+ 8. scenario_8: -19.003s → -5.809s (Mejora: +69.430s, +69.4%)
+ 9. scenario_9: -20.147s → -5.301s (Mejora: +73.690s, +73.7%)
+10. scenario_10: -19.227s → -4.735s (Mejora: +75.380s, +75.4%)
+
+TOP 10 PEORES RESULTADOS:
+----------------------------------------
+ 1. scenario_59: -15.162s → 0.000s (Cambio: +100.000s, +100.0%)
+ 2. scenario_60: -15.058s → 0.000s (Cambio: +100.000s, +100.0%)
+ 3. scenario_61: -15.426s → 0.000s (Cambio: +100.000s, +100.0%)
+ 4. scenario_62: -15.331s → -0.197s (Cambio: +98.720s, +98.7%)
+ 5. scenario_63: -15.476s → -0.005s (Cambio: +99.970s, +100.0%)
+ 6. scenario_64: -15.363s → -0.002s (Cambio: +99.990s, +100.0%)
+ 7. scenario_65: -14.815s → -0.196s (Cambio: +98.680s, +98.7%)
+ 8. scenario_66: -14.945s → -0.004s (Cambio: +99.970s, +100.0%)
+ 9. scenario_67: -14.898s → 0.000s (Cambio: +100.000s, +100.0%)
+10. scenario_68: -15.043s → -0.010s (Cambio: +99.930s, +99.9%)
+
+RECOMENDACIONES:
+----------------------------------------
+1. Aumentar generaciones GA de 1,000 a 5,000-10,000
+2. Investigar escenarios exitosos (14, 15, 47, 45, 5)
+3. Revisar parámetros GA para mejor convergencia
+4. Validar datos de entrada para escenarios problemáticos
